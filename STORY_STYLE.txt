@@ -1,0 +1,77 @@
+STORY_STYLE | GIỌNG TRUYỆN AUDIO TRUNG QUỐC VIỆT HÓA | v3.2
+Áp dụng trong quyền sửa cho phép. STORY_RULES và yêu cầu người dùng được ưu tiên. Truyện cuối liền mạch, không chia chương; xuống đoạn để đọc tự nhiên, chuyển cảnh bằng lời kể.
+
+S01. CHẤT TRUYỆN PHẢI NẰM TRONG HÀNH ĐỘNG
+Chọn hồ sơ giọng phù hợp mô típ: đời thường dồn nén; sảng văn phản công; gia đấu kín kẽ; niên đại mộc mạc; huyền huyễn có quy tắc. Đây là lựa chọn, không phải tất cả truyện phải giống nhau. Với truyện gia đình hiện đại: xung đột thường nằm trong vai vế, nghĩa vụ, thể diện, lợi ích và ranh giới cá nhân. Với cổ đại/tu tiên, dùng quan hệ quyền lực và điều kiện thế giới tương ứng; không bê hội thoại công sở sang cổ trang.
+Tên Trung Quốc không tự tạo chất Trung Quốc. Đặc trưng cần thấy ở cách xưng hô, lời nói có ý sau lời, áp lực quan hệ, tích lũy kỳ vọng và đảo chiều có cái giá. Việt hóa tự nhiên, không giả tiếng Trung bằng cấu trúc dịch máy; không mặc định mọi gia đình Trung Quốc đều độc ác hoặc trọng nam.
+ĐẠT: “Chị dâu đặt bát xuống. ‘Cả nhà còn chưa ăn, em đã tính tiền công rồi à?’ Tôi kéo ghế cho mẹ ngồi. ‘Mẹ ăn trước đi. Chuyện cửa hàng, lát nữa mình nói bằng sổ sách.’” Vai vế, áp lực tình cảm và quyền quyết định đều hiện qua hành động.
+CHƯA ĐẠT: “Tập đoàn Lâm thị đệ nhất thế giới sẽ khiến các ngươi quỳ xuống.” Nếu không có bối cảnh và nguồn lực, đây chỉ là khẩu khí rỗng.
+NGOẠI LỆ: nhân vật thực sự khoa trương có thể nói quá; lời kể phải cho thấy đó là tính cách, không mặc nhiên xác nhận lời khoe là sự thật.
+
+S02. HOOK VÀ MỞ CẢNH
+Câu đầu đưa một tình huống cụ thể có lực hút. Những câu tiếp theo làm rõ hệ quả, mâu thuẫn hoặc lựa chọn; ba câu là phép kiểm ngắn, không khuôn đúc cú pháp. Không mở bằng chào hỏi, tự giới thiệu lý lịch hoặc triết lý chung. Không bắt nhân vật chết để hợp mẫu trọng sinh.
+ĐẠT: “Mẹ đưa chìa khóa cửa hàng cho em trai tôi, rồi quay sang hỏi ngày mai tôi có đến mở cửa như thường lệ không.” Bất công hiện trong hành động và kỳ vọng, không cần la hét.
+CHƯA ĐẠT: “Tôi đã đau khổ cả đời. Lần này, họ sẽ trả giá.” Thiếu tình huống và lời hứa cụ thể.
+NGOẠI LỆ: nguồn MODIFY khóa mở đầu thì giữ nguồn, ghi hạn chế riêng; không phá khóa để đạt điểm hook.
+TỰ KIỂM: người nghe đang chờ điều gì và truyện có thực sự trả điều đó không? Hook không được lấy sự kiện không tồn tại hoặc tự thú vô cớ làm lời hứa.
+
+S03. NHỊP KỂ CÓ ĐỘ DÀI BIẾN THIÊN
+Ưu tiên sự kiện → phản ứng → lựa chọn → hậu quả, linh hoạt thứ tự khi vẫn rõ nhân quả. Câu ngắn tạo lực nhấn, câu vừa giữ dòng kể, câu dài chỉ khi dễ theo. Không viết cả truyện bằng các câu hai ba từ hoặc liên tục “Tôi cười. Tôi lạnh giọng. Cả phòng im bặt.”
+Căng thẳng cần khoảng thở có chức năng. Trì hoãn phải trao thông tin, lựa chọn hoặc chuyển biến mới. Không dùng mắng chửi lặp lại để tích lũy bất công. Không bắt mỗi đoạn có đòn phản công.
+ĐẠT: sau một cuộc họp căng thẳng, nhân vật ăn bữa cơm với cha, nhận ra ông vẫn để dành chiếc ghế cũ cho mình; cảnh trả nợ tình thân và thay đổi quyết định ngày mai.
+CHƯA ĐẠT: ba cảnh liên tiếp mọi người cùng khinh thường, nữ chính cùng im lặng, không mất thêm gì và không làm gì mới.
+TỰ KIỂM: cảnh này thay đổi gì? Cảnh trước và sau có cùng một nhịp/cùng loại phần thưởng không? Nếu có, đổi chức năng thay vì chỉ thay địa điểm.
+
+S04. NHẬP VAI, VẾT THƯƠNG VÀ CHỦ ĐỀ NGẦM
+Cho thấy điều nhân vật muốn bảo vệ qua phản ứng cụ thể. Một cử chỉ chỉ có tác dụng khi gắn lịch sử quan hệ hoặc lựa chọn hiện tại. Hạn chế gọi tên cảm xúc rồi giải thích lại bằng ba câu đồng nghĩa.
+ĐẠT: “Cha hỏi tôi có ăn hành không. Tôi kéo chiếc bát về phía mình. Lần trước rời nhà, tôi đã nói không bao giờ muốn nghe ông hỏi câu ấy nữa.” Cảnh nghỉ vẫn mang hối tiếc và quan hệ.
+CHƯA ĐẠT: “Tôi vô cùng xúc động, vừa hạnh phúc vừa đau khổ, trái tim tan vỡ.” Chưa có điều gì riêng của nhân vật.
+Kết hành trình bằng hành động tự quyết hoặc thay đổi quan hệ; không thay bằng bài học đạo đức. Nếu chọn sắc thái sảng, vẫn cho nhân vật có điều đáng quan tâm ngoài việc khiến người khác hối hận.
+
+S05. ĐỐI THOẠI CÓ MỤC ĐÍCH VÀ KHẨU KHÍ RIÊNG
+Mỗi lượt thoại cố làm điều gì: dò xét, ép nghĩa vụ, giữ thể diện, thương lượng, né tránh, trấn an, đặt giới hạn? Cho người đối thoại phản ứng. Người mẹ kiểm soát, người chồng né trách nhiệm và người em thực dụng không nói cùng một giọng diễn thuyết.
+Xưng hô đúng vai vế, thân sơ, thời đại; khi thái độ đổi thì xưng hô có thể đổi có chủ đích. Không lạm dụng “bổn cô nương”, “tiện nhân”, “các người” trong bối cảnh không phù hợp. Không áp tỷ lệ thoại cố định.
+CHƯA ĐẠT: “Anh là người đàn ông ích kỷ, biểu tượng cho toàn bộ sự bất công mà tôi đã chịu.”
+ĐẠT: “‘Em tính toán với cả mẹ anh sao?’ Anh không nhìn tôi, chỉ gấp tờ hóa đơn lại. Tôi giữ tay anh. ‘Anh đọc số tiền trước đã.’”
+NGOẠI LỆ: lời phát biểu công khai có thể dài nhưng cần người nghe cụ thể, trở lực và hệ quả; không cho nhân vật đọc toàn bộ chủ đề tác phẩm.
+TỰ KIỂM: bỏ tên người nói đi có phân biệt được mục đích/khẩu khí không? Lời thoại này có thay đổi thông tin, quan hệ, lựa chọn hoặc cảm xúc đáng kể không?
+
+S06. THÔNG TIN, GÓC NHÌN VÀ MONG ĐỢI
+Nhất quán ngôi kể. Ngôi một chỉ biết sự kiện ngoài tầm nhìn qua nguồn hợp lý: nghe kể, chứng kiến, ghi nhận hoặc suy luận có giới hạn. Có thể dùng hồi cố nhưng phải báo nguồn biết và tránh giả vờ không biết điều đã kể.
+Cho người nghe biết kế hoạch cũng tạo hồi hộp: họ chờ đối thủ nhận ra. Không cần giấu mọi thứ để có twist. Chỉ trì hoãn chi tiết khi hợp ngôi kể, tình huống và không làm méo dòng suy nghĩ.
+ĐẠT: “Tôi nhờ quản lý giữ lại hóa đơn. Chưa đủ để kết luận, nhưng đủ để ngày mai anh ta phải trả lời.” Người nghe thấy chuẩn bị, vẫn chờ kết quả.
+CHƯA ĐẠT: “Tôi đã chuẩn bị tất cả, nhưng chưa thể nói với bạn.” Dùng sự giấu giếm của tác giả thay cho bí ẩn có thật.
+Kết cảnh có thể là quyết định, thay đổi quan hệ, dư âm hoặc câu hỏi thực. Không bắt cliffhanger và không tự thêm kẻ thù mới chỉ để kéo dài.
+
+S07. NGHE MỘT LẦN VẪN THEO ĐƯỢC
+Đổi thời gian/địa điểm bằng tín hiệu trong lời kể: “Sáng hôm sau...”, “Đến bữa cơm tối...”. Tránh cắt cảnh chỉ bằng dòng trắng. Đối thoại nhiều người cần gắn chủ thể tại chỗ dễ nhầm; không phải lượt nào cũng lặp tên đầy đủ.
+Tên tự nhiên và phân biệt về âm khi thường xuất hiện cùng nhau. Giới thiệu nhân vật bằng vai trò trong tình huống, không đọc danh sách gia phả. Phân phối thông tin tài sản, kế hoạch và quan hệ qua hành động; nhắc lại bằng hệ quả mới, tránh tóm tắt lại cả truyện.
+Số, ngày, tiền, chữ viết tắt phải dễ đọc; chọn cách viết nhất quán trong bối cảnh, không quy đổi tiền làm sai nguồn lực. Văn bản không chứa mã QA, SSML, chỉ dẫn “[ngừng ba giây]” hay Markdown. Nếu công cụ đọc cần chỉ dẫn, lưu ở file sản xuất riêng.
+TỰ KIỂM: ai nói, ở đâu, khi nào, điều gì thay đổi? Có chỗ nào phải nhìn lại văn bản mới hiểu không? Chưa chạy TTS chỉ được kết luận về văn bản, không nhận đã kiểm nghiệm phát âm.
+
+S08. KẾT THÚC VÀ DƯ ÂM
+Trả lời câu hỏi trung tâm; cho thấy hậu quả và cái giá còn lại. Trả ít nhất món nợ cảm xúc trung tâm bằng hành động/quan hệ đổi thật. Dư âm có thể ấm áp, cay đắng, bình thản hoặc day dứt theo lời hứa, không áp kết vui.
+CHƯA ĐẠT: “Tất cả kẻ xấu đều vào tù, tôi trở thành người giàu nhất, từ đó mãi hạnh phúc.” Nếu truyện không chuẩn bị cơ chế và hậu quả, đây là kết tóm tắt.
+ĐẠT: nhân vật từ chối lời mời quay lại vị trí cũ, ngồi ăn cùng người mình từng bỏ quên, sáng hôm sau tự mở cửa công việc đã gây dựng. Chi tiết cần xuất phát từ đúng truyện, không chép thành kết chung.
+Câu cuối không giảng đạo, không quảng bá kênh, không chào người nghe. Tránh mở tuyến chính mới ở câu cuối của truyện hoàn chỉnh.
+
+S09. CHỐNG VĂN AI VÀ TỰ KIỂM CUỐI
+Rà các thói quen: ai cũng cười lạnh; tập thể đồng loạt sững sờ; phản diện thú tội thành bài; nhân vật tuyên bố thông minh thay vì làm việc; “hóa ra” lặp; cảnh nào cũng kết bằng lời báo thù; liên tục dùng giấy tờ xuất hiện đúng lúc. Không cấm tuyệt đối từ riêng lẻ, sửa khi lặp chức năng hoặc thiếu căn cứ.
+Mỗi lớp hook/mở cảnh/lối kể/nhịp/hành văn/giữ chân phải có bằng chứng trong truyện. Dùng ví dụ để hiểu cơ chế, không sao chép câu. Hồ sơ biên tập phải chỉ ra cảnh nào tạo đồng cảm, cảnh nào đổi cán cân, cảnh nào trả kỳ vọng và cảnh nào để lại dư âm.
+
+S10. HỢP ĐỒNG TRẢI NGHIỆM THEO THỂ LOẠI
+Các yêu cầu dưới đây là chức năng, không ấn định số twist/cảnh hay bắt mọi nhân vật trả thù. Khi phối mô típ, mô típ chính phải được thực hiện thật; mô típ phụ không thay lời hứa chính.
+TRỌNG SINH GIA ĐÌNH: có quyết định khác từ ký ức/hối tiếc và hệ quả khác; ký ức có nguồn, giới hạn và giảm chắc chắn khi tương lai đổi. Hồi hộp ở nhân vật có thoát lựa chọn cũ khi phải trả giá không. Chưa đạt nếu chỉ nói “sống lại” rồi mọi việc như một truyện ly hôn thường hoặc nhân vật tự biết mọi tương lai. Ví dụ chức năng đạt: ngăn một hậu quả cũ nhưng tạo nghĩa vụ mới mà ký ức không giải được.
+XUYÊN KHÔNG CỔ ĐẠI: thân phận/luật xã hội tạo trở lực cụ thể, kiến thức mới phải qua vật liệu/kỹ năng/quyền lực địa phương và giới hạn; nhân vật cần học người bản địa. Hồi hộp ở sự thích nghi và quyền lựa chọn. Chưa đạt nếu thay bối cảnh cổ trang nhưng ai cũng nói/quyết như công sở hiện đại, hoặc một công thức hiện đại khiến cả phủ phục tùng. Ví dụ đạt: phép thử nhỏ thất bại, người thợ bản địa nhận ra điều nhân vật bỏ sót, việc hợp tác đổi vai vế có cái giá.
+NIÊN ĐẠI LÀM GIÀU: điều kiện thời kỳ ảnh hưởng tiếp cận hàng, vốn, vận chuyển, thông tin hoặc cơ hội; phải có bài toán trao đổi/sản xuất/nguồn lực dẫn tiến triển vật chất đo được trong truyện. Hồi hộp ở kiếm sống và xây năng lực/lòng tin có giới hạn. Chưa đạt nếu chỉ gắn máy may/đài cũ vào truyện gia đình mà đời sống vật chất không đổi; cũng chưa đạt nếu làm giàu chỉ bằng vài câu tổng kết. Tiến triển nhỏ nhưng thật được chấp nhận, không bắt giàu nhất vùng.
+HÀO MÔN THẬT–GIẢ: danh phận làm đổi quyền tiếp cận, quan hệ, nghĩa vụ và lựa chọn, không chỉ quyền ngồi một chiếc ghế. Hồi hộp ở điều kiện để được chấp nhận, liên minh và ai chịu mất lợi ích khi sự thật lộ. Chưa đạt nếu mọi vấn đề giải ngay bằng xét nghiệm/di chúc hoặc thân phận tỷ phú giấu kín. Ví dụ đạt: được công nhận về giấy tờ nhưng phải chọn giữa làm biểu tượng cho gia đình và giữ lời với người đã nuôi mình; lựa chọn làm mất một lợi ích thật.
+PHÁ ÁN: có manh mối quan sát được, giả thuyết có thể kiểm chứng, ít nhất một cách hiểu hợp lý bị bằng chứng loại bỏ, lời giải khớp dữ kiện đã cho người nghe và có hậu quả. Hồi hộp ở tìm sự thật với giới hạn thông tin/quyền can thiệp. Chưa đạt nếu điều tra chỉ là cãi nhau rồi thủ phạm tự thú hoặc có đoạn ghi hình hoàn hảo xuất hiện ở cuối. Ví dụ đạt: cùng một dấu vết từng buộc tội người này được đặt lại đúng thời điểm, loại giả thuyết đầu và mở cách kiểm chứng khác; không cần thuyết minh pháp y dài.
+CHẤT AUDIO TRUNG QUỐC không bắt mọi loại dùng gia đình độc ác/sảng văn: trong gia đấu là vai vế và thể diện; trong niên đại là nghĩa vụ cộng đồng và đổi đời có điều kiện; trong phá án là mạng quan hệ và sự thật gây đổi vị thế; trong xuyên không là va chạm thân phận và quy tắc. Cần nhiều cảnh thực hiện đúng, không chỉ một câu xưng hô hoặc địa danh. Không thêm đồ ăn/ngày lễ làm nhãn văn hóa nếu không có chức năng.
+
+S11. HAI ĐỐI CHỨNG BIÊN TẬP
+Đủ thông tin nhưng thiếu cảm xúc: “Tôi đã kiếm đủ tiền. Cha rất vui vì tôi trưởng thành.” → yêu cầu một lựa chọn/cử chỉ gắn quan hệ đã gieo, chẳng hạn người cha ngừng thu dọn đồ để về quê và hỏi mai có còn cần ông mở cửa không. Không chép ví dụ; nguyên tắc là quan hệ đổi qua hành động.
+Đối thủ có lý nhưng không tiến triển: lặp ba cảnh người chủ hạ giá vì muốn giữ khách → cảnh sau phải làm đổi cách bán, nguồn lực, liên minh hoặc cái giá của nhân vật; nếu chỉ nhắc lại động cơ thì gộp. Phản diện hợp lý chưa đủ để cảnh có chức năng.
+Kiểm nghe tên bằng cặp thường đi cùng: hai tên khác chữ nhưng chỉ khác thanh như “Mạn/Mãn” vẫn dễ nhầm. Đổi định danh một người và rà truyện/hồ sơ; không chỉ nhìn danh sách thấy tên không trùng rồi cho đạt.
+S12. QUY TẮC KHÔNG PHẢI GIỌNG NGƯỜI KỂ
+Không kể cho người nghe rằng tác phẩm đang tránh một khuôn truyện. Những phủ định về vỗ tay, người tốt trong truyện, giấy tờ đánh bại ai hoặc giàu có bất ngờ chỉ nên xuất hiện khi là suy nghĩ/quan sát cần thiết của nhân vật trong cảnh cụ thể. Không chèn chúng để chứng minh đã làm đúng hướng dẫn. Thay bằng chi tiết riêng hoặc cắt nếu thông tin đã đủ; không thêm một câu giáo huấn khác để lấp.
+Phân biệt nội tâm sống với lời biên tập: nội tâm có đối tượng, ký ức hoặc lựa chọn đang gây khó cho nhân vật; lời biên tập chỉ giải thích vì sao cách kể này hay/đúng/khác khuôn. Giữ cái đầu, bỏ cái sau. Không cấm tuyệt đối câu “không phải” trong thoại tự nhiên.

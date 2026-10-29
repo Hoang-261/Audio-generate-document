@@ -1,0 +1,149 @@
+STORY_RULES | QUY TẮC VÀ THANG ĐÁNH GIÁ KHÓA TRƯỚC TEST | v3.2
+Mục đích: truyện audio Trung Quốc Việt hóa có sức hút tức thời, duy trì và dư âm. Đây là tiêu chí biên tập dựa trên file phân tích, không phải phép đo khoa học hay bảo đảm giữ chân người nghe.
+Ưu tiên: yêu cầu người dùng và quyền nguồn > quy tắc này > AGENT_SETUP > STORY_STYLE > HOOK_LIBRARY. Không biến ví dụ thành công thức. NEW = sáng tác; MODIFY = sửa nguồn theo nhóm; AUTO/MANUAL là cách chọn ý tưởng.
+
+A. ĐIỀU KIỆN CỨNG
+R01 LENGTH: phần STORY_TEXT phải trên 8.000, tối thiểu 8.001 đơn vị đếm khoảng trắng. Chuẩn hóa Unicode NFC, trim, tách bằng biểu thức khoảng trắng liên tiếp; báo số thực đo và công cụ. Đây không phải đếm từ ngôn ngữ học tiếng Việt. Không tính tiêu đề, dàn ý, báo cáo, nhãn phần, hồ sơ hay ghi chú. Mục tiêu soạn 9.000–10.500 để còn dư sau sửa; không thêm chữ rỗng cho đủ.
+R02 CONTINUOUS: truyện hoàn chỉnh LIỀN MẠCH, KHÔNG CHIA CHƯƠNG, KHÔNG TIÊU ĐỀ ĐOẠN, KHÔNG NHÃN PHẦN, không “PART”, không nhãn cảnh. Xuống đoạn bình thường và tín hiệu chuyển thời gian/địa điểm trong lời kể được phép. Các chặng chỉ dùng ở hồ sơ nội bộ. STORY_TEXT.txt chỉ có văn bản đọc, tiêu đề nằm trong báo cáo/tên file khác.
+R03 COMPLETE: có mở, phát triển, cao trào và kết giải quyết xung đột chính; không TODO, tóm tắt thay cảnh thiếu, kết bị cắt hoặc tự nhận đủ khi chưa đọc/đếm toàn văn.
+R04 HONEST: không nhận đã đọc nguồn đầy đủ, chạy TTS, kiểm trùng kho, khảo sát người nghe, kiểm thử nhiều agent hay đo số từ nếu chưa làm. Ghi rõ STATIC/SCENARIO/END_TO_END và phạm vi chứng cứ.
+R05 SOURCE: nguồn MODIFY phải đủ và có quyền phù hợp. Thiếu quyền chuyển thể sát thì không giữ chuỗi sự kiện đặc thù bằng cách chỉ thay tên. NEW từ tham khảo chỉ lấy mô típ chung, tạo nhân quả, quan hệ, giải pháp và hậu quả riêng. Mã sửa không phải chứng minh độc lập.
+R06 NAME: MODIFY đổi cả họ lẫn tên của mọi nhân vật có tên riêng, tự nhiên và phân biệt khi nghe; ánh xạ 1–1, rà tên/biệt danh/xưng hô gắn tên và biến thể. Không tự bịa thân thế trái khóa cho người chỉ có biệt danh. Quan hệ cùng họ và manh mối liên quan tên phải được bảo toàn khi khóa; đổi một lần nhất quán. NEW đặt tên Trung Quốc đầy đủ phù hợp thời đại, không dùng tên gần âm cho nhóm thường đối thoại.
+R07 MODE: M00 chỉ đổi tên và tham chiếu ngữ pháp tối thiểu, không viết lại thoại, nhịp, hook, kết hay sự kiện. Các mã khác chỉ sửa nhóm ON; nhóm OFF giữ nguyên cả ảnh hưởng gián tiếp. Nhóm ON kéo theo OFF thì thiết kế lại hoặc BLOCKED, không lấy lý do sửa logic để vượt quyền. Nguồn M00 <=8.000: báo xung đột, không tự nối truyện.
+R08 LOGIC: không có mâu thuẫn nghiêm trọng chưa giải quyết về thời gian, tuổi, động cơ, tiền bạc, tài nguyên, tri thức, bằng chứng, quan hệ, ngôi kể hoặc luật thế giới. Không giải quyết trung tâm bằng may mắn, nhân vật mới hoặc vật chứng không gieo trước. Vấn đề nhỏ có thể ghi nhận và trừ điểm, không che thành PASS tuyệt đối.
+R09 SEPARATION: STORY_TEXT tách khỏi QA_REPORT, thiết kế, STATE và hồ sơ. Không dấu Markdown, lời chào, quảng bá, code, nhãn TTS hay nhận xét kỹ thuật trong văn bản đọc.
+R10 LOCKED_SOURCE: nếu nguồn khóa có nhược điểm hook, logic hay kết thì ghi hạn chế, không tự chữa trái khóa. Có thể đạt đúng phạm vi sửa mà không đạt chất lượng truyện; hai kết luận tách riêng.
+
+B. 18 TIÊU CHUẨN NỘI DUNG
+ST01 Hook: tình huống cụ thể ở câu đầu, câu tiếp có hệ quả/lực đẩy; không hứa sai hoặc chỉ la hét. Mở cảnh có hành động, không giới thiệu dài.
+ST02 Lời hứa: nêu điều người nghe mong và cảnh trả bằng hành động ở kết; lời hứa không chỉ là bí mật.
+ST03 Đồng cảm: mục tiêu ngoài, tổn thương/hối tiếc, giới hạn, điều đáng bảo vệ và lựa chọn có cái giá; nhân vật có quyền chủ động.
+ST04 Đối thủ: mục tiêu, tự biện hộ, nguồn lực, giới hạn và phản ứng có logic. Không thắng vì tất cả đối thủ tự ngu đi.
+ST05 Nhân quả: mỗi biến cố quan trọng đến từ nguyên nhân/lựa chọn và tạo hệ quả; tránh chuỗi “và rồi” với kẻ gây chuyện mới vô liên quan.
+ST06 Quyền lực: lợi thế có nguồn, chi phí và giới hạn. Theo dõi tiền, bằng chứng, quan hệ, uy tín, quyền lựa chọn và khả năng phản ứng.
+ST07 Thông tin: theo dõi riêng ai biết gì và người nghe biết gì, thời điểm/nguồn biết. Hồi hộp, tò mò và bất ngờ là lựa chọn khác nhau; không giấu giả tạo trong ngôi kể.
+ST08 Gieo/trả: manh mối quan trọng có trước, khi trả làm đổi cách hiểu hoặc lựa chọn và có hậu quả. Không bắt có twist.
+ST09 Nhịp: xen tiến triển, đánh đổi, thất bại, nghỉ và giải tỏa theo truyện; trì hoãn có tiến triển. Không ép đồ thị chiến thắng/thất bại.
+ST10 Thoại: có mục đích, hàm ý, đúng vai vế và khẩu khí riêng; người nghe nhận ra người nói. Không biến mọi nhân vật thành người phát biểu chủ đề.
+ST11 Audio: nghe một lần theo được chủ thể, thời gian, địa điểm, quan hệ và kế hoạch. Câu biến thiên, nhịp ngắt có mục đích; thông tin phức tạp phân phối qua hành động.
+ST12 Kết: trả câu hỏi trung tâm, hậu quả của lựa chọn và món nợ cảm xúc; không ép viên mãn, không kết bằng giảng đạo/tóm tắt vội.
+ST13 Chân thực: bối cảnh, khả năng và động cơ đủ căn cứ trong thế giới đã thiết lập. Chi tiết pháp lý/y khoa cụ thể cần kiểm chứng nếu là điểm quyết định; có thể thiết kế xung đột không phụ thuộc tuyên bố chuyên môn chưa chắc.
+ST14 Độc lập: phân biệt mô típ với biểu đạt và cấu trúc riêng nguồn. Không coi đổi tên/nghề/bối cảnh là cốt truyện mới.
+ST15 Truyện dài: đủ nội dung >8.000 và giữ STATE qua các chặng. Độ dài đến từ lựa chọn, quan hệ, đánh đổi và hệ quả, không diễn giải lại.
+ST16 Cảnh: xác định kỳ vọng/cảm xúc vào, thay đổi, phần thưởng hoặc trì hoãn có tiến triển, cảm xúc ra và động lực tiếp. Cảnh nghỉ cũng có chức năng.
+ST17 Mô típ/chất Trung Quốc: phần thưởng đúng mô típ, ngôn ngữ Việt tự nhiên, quan hệ/xưng hô/thể diện/lợi ích hoặc luật thế giới hiện trong hành động. Không chỉ gắn tên Trung Quốc hoặc ép mọi thể loại thành ly hôn trả thù.
+ST18 Đa dạng: các truyện khác cơ chế xung đột, quan hệ, động cơ, cách giải quyết và dư âm. Fingerprint và so sánh trong phạm vi kho thật có.
+
+C. QUYỀN MODIFY
+A = nhân vật: đặc điểm, mục tiêu, phát triển; thay tên vẫn áp dụng mọi mã.
+B = bối cảnh: thời gian, địa điểm, điều kiện xã hội.
+C = tuyến sự kiện: hành động chính và chuỗi nhân quả.
+D = quan hệ: vai trò, liên minh, huyết thống khi có quyền.
+E = twist: bí mật, cơ chế đảo chiều, thời điểm tiết lộ.
+F = kết: hậu quả và cách khép xung đột.
+Đổi cách diễn đạt không có quyền riêng ngoài A–F: M00 khóa câu chữ trừ tên; mã khác chỉ được viết lại câu/thoại phục vụ thay đổi ON và không làm đổi nội dung, thông tin, trình tự, nhịp tương đối hay ý nghĩa của OFF. Nếu cần biên tập giọng toàn văn, phải có ủy quyền riêng ghi trong MODE_LOCK; không tự suy ra từ một nhóm ON. Ủy quyền giọng không mở nội dung OFF.
+CHANGE_MATRIX bắt buộc cho MODIFY: từng nhóm ON/OFF; đề xuất; ảnh hưởng trực tiếp/gián tiếp; vị trí nguồn; bằng chứng bảo toàn nhóm OFF; xung đột. Không đổi địa danh/tổ chức ngoài quyền B hoặc ủy quyền riêng.
+Bảng mã 64 tổ hợp ở cuối file giữ nguyên ánh xạ bản 2.0; không giải mã bằng bit nhị phân. M00 không nhóm; M63 tất cả nhóm.
+
+D. QA VÀ KẾT LUẬN TÁCH BIỆT
+QA01 nguồn/mode/quyền/khóa; QA02 tên và biến thể; QA03 toàn văn và kết; QA04 số từ đo; QA05 không chương/phần/ghi chú; QA06 timeline/tri thức/chứng cứ/tiền/quan hệ; QA07 lời hứa và gieo/trả; QA08 cảnh/nhịp/cảm xúc; QA09 giọng và khả năng nghe; QA10 độ độc lập trong phạm vi dữ liệu thật.
+Mỗi lỗi ghi mã, cảnh hoặc đoạn, dẫn chứng ngắn, mức ảnh hưởng, cách sửa và kết quả tái kiểm tra. Không dùng điểm tổng bù lỗi cứng.
+COMPLIANCE: PASS/FAIL/BLOCKED/INCOMPLETE theo R01–R10. QUALITY: điểm /100 và đạt/chưa đạt ngưỡng. AUDIO_TEXT: reviewed/not_reviewed. TTS: tested/not_run cùng giọng/phạm vi nếu đã chạy. ORIGINALITY: internal_check/compared_to_supplied_registry/unverified_external, không tự nhận độc nhất tuyệt đối.
+Không chạy TTS không tự động FAIL văn bản; chỉ không được kết luận về giọng tổng hợp thực tế. Điểm Audio đánh giá khả năng nghe dự kiến từ văn bản, cần ghi nhãn đó. Đếm từ chưa xác minh hoặc chưa đủ toàn văn: không nghiệm thu truyện.
+QA11 VERSION: mọi báo cáo ghi phiên bản/hash bytes quy tắc, SHA256_BYTES của đúng file truyện đã đọc, số đo và phạm vi đọc. Bản trước sửa và review cũ được lưu; sửa nội dung làm review cũ chưa áp dụng cho bản mới cho đến tái kiểm. Không lấy hash văn bản trim/NFC thay cho hash bytes khi nhận diện phiên bản.
+QA12 EXPERIENCE: chọn cặp cảnh đầu/cuối chứng minh chuyển hóa bằng lựa chọn, rà ba mức sức hút tức thời/duy trì/lâu dài, và đối chiếu hợp đồng mô típ trong STORY_STYLE S10. Cảnh có giải thích cảm xúc nhưng thiếu thực hiện phải bị trừ ở nhóm tương ứng; không cộng vì hồ sơ tự mô tả hay.
+QA13 PROP_AND_VOICE: đối chiếu PROP_LEDGER với các lần xuất hiện/giao nhận đạo cụ có chức năng; rà lời kể bình luận về khuôn truyện hoặc sự tuân thủ quy tắc thay vì trải nghiệm nhân vật. Lỗi cục bộ trừ đúng logic/giọng/nhịp theo tác động, không biến mọi chiếc cốc thành lỗi nghiêm trọng. v3.2 chỉ bổ sung cách phát hiện từ ca thử, không đổi ngưỡng, trọng số hoặc neo điểm đã khóa.
+
+E. STORY_RUBRIC — KHÓA TRƯỚC KHI GỌI WRITER
+Chấm toàn văn, không chỉ hook. Điểm từng nhóm dựa trên cảnh và phản chứng; dùng bước 0,5 điểm, không tự cộng vì độ dài hay ý tốt. Nhận xét chủ quan phải có bằng chứng. Người chấm không được giả khảo sát người nghe.
+Mỗi nhóm phải có cảnh chứng minh và điểm yếu/phản chứng; nếu cho điểm tối đa phải nói vì sao không thấy lỗi đáng kể sau khi đã thử phản biện. Chấm đúng mức thực hiện, không chỉ sự có mặt của một yếu tố. Trọng số/neo điểm bản v3.0 được GIỮ NGUYÊN ở v3.1; bổ sung hướng dẫn không cho phép nâng điểm hồi tố vì muốn đạt ngưỡng.
+1 Hook và mở đầu /10: tình huống có lực hút, lời hứa rõ/đúng, nhanh đi vào hành động. Điểm 9–10 khi cả ba có chứng cứ; trừ nếu hook mạnh nhưng thân không trả.
+2 Đồng cảm và nhân vật /15: mục tiêu/giới hạn và chủ động /5; vết thương/quan hệ tạo quan tâm /5; thay đổi nội tâm chứng minh bằng lựa chọn /5.
+3 Xung đột và nhân quả /15: tầng xung đột và đối thủ hợp lý /5; nguyên nhân–lựa chọn–hệ quả liên kết /5; thắng có chuẩn bị/cái giá/phản ứng /5.
+4 Tò mò và kiểm soát thông tin /10: câu hỏi/kỳ vọng có giá trị /5; phân phối kiến thức đúng góc nhìn, trì hoãn có căn cứ /5.
+5 Nhịp độ và cao trào /15: phần giữa có tiến triển và đổi nhịp /5; phần thưởng đa dạng/đánh đổi /5; cao trào tích lũy, không giải quyết dễ/vội /5.
+6 Lời thoại và hành văn /10: thoại có mục đích/khẩu khí/hàm ý /4; văn Việt tự nhiên, câu/nhịp biến thiên, tránh sáo /3; chất audio Trung Quốc trong quan hệ, vai vế và cách tổ chức phần thưởng đúng thể loại /3. Điểm nhóm này tối thiểu 9/10, mục chất Trung Quốc tối thiểu 2,5/3 để nghiệm thu mục tiêu hiện tại.
+7 Logic và gieo mầm /10: nhất quán timeline/nguồn lực/tri thức /5; chi tiết gieo trước, trả đúng, không vật chứng hoặc cứu viện từ trời /5.
+8 Khả năng nghe audio /10: nhận diện chủ thể/xưng hô/tên /4; chuyển cảnh và tải thông tin /3; nhịp câu/dấu câu/số dễ đọc /3. Chấm văn bản, ghi rõ chưa nghe TTS nếu chưa chạy.
+9 Kết thúc và dư âm /5: khép xung đột và hậu quả /2; trả món nợ cảm xúc bằng hành động /2; dư âm riêng không giảng đạo /1.
+NEO ĐIỂM cho mỗi tiểu mục: 100% trọng số = thực hiện rõ, xuyên suốt, có cảnh chứng minh, không có khuyết điểm đáng kể được chỉ ra; 90% = mạnh nhưng còn lỗi nhỏ cục bộ; 80% = chức năng đạt, có chỗ cơ học/lặp hoặc chưa sâu; 60% = có ý nhưng thiếu thực hiện quan trọng; <=40% = thiếu/lỗi làm hỏng trải nghiệm. Quy đổi về bước 0,5 của nhóm; giải thích khi ở sát ngưỡng. Không mặc định 95 là điểm xuất phát.
+GATE_STORY: COMPLIANCE PASS và tổng >=95/100, không nhóm dưới 80% trọng số, nhóm 6 >=9/10 và chất Trung Quốc >=2,5/3. Điểm thấp thì sửa và tái chấm bằng cùng tiêu chí; không đổi trọng số sau khi thấy truyện.
+Khi có hai reviewer độc lập, lấy điểm thấp hơn theo từng nhóm để xác định cổng bảo thủ; bất đồng lớn hơn 1 điểm/nhóm phải đối chiếu cảnh và ghi quyết định, không lấy trung bình để che lỗi. Một reviewer và tác giả tự chấm không phải hai reviewer độc lập.
+
+F. RULESET_RUBRIC — ĐÁNH GIÁ RIÊNG 4 FILE /100
+U1 Bao phủ file phân tích /20: sáu lớp hook/mở cảnh/lối kể/nhịp/hành văn/giữ chân và ba mức sức hút có chỉ dẫn vận hành, không chỉ nhắc tên.
+U2 Thiết kế cảm xúc /20: SCENE_CARD, kiến thức người nghe, món nợ cảm xúc, phần thưởng nhiều loại, hành trình nội tâm và xung đột nhiều tầng có trường và bước kiểm tra.
+U3 Chất audio Trung Quốc /15: giọng phù hợp mô típ, vai vế/hàm ý/nhịp, Việt hóa tự nhiên, đối chứng đạt/chưa đạt, không một khuôn cho mọi thể loại.
+U4 Thực thi truyện dài /15: STATE, ngân sách, lưu/tiếp tục/gộp, >8.000 đo thật, liền mạch, không đệm hoặc nhãn chương.
+U5 Nhất quán và ngoại lệ /10: thứ tự ưu tiên, tách chế độ/cách chọn ý tưởng, khóa MODIFY và quyền câu chữ, xử lý xung đột và trạng thái QA rõ.
+U6 Kiểm định có chứng cứ /15: thang điểm nội dung, lỗi cứng, ca test, dữ liệu đầu ra thật, phân biệt STATIC/SCENARIO/END_TO_END, vòng sửa chống tái phát.
+U7 Dùng lại và đa dạng /5: fingerprint/registry có phạm vi, ca thử đa thể loại và không lặp giải pháp.
+GATE_RULES: >=95/100 và không thiếu điều kiện cứng, không có ca quan trọng về nguồn/khóa/độ dài/liền mạch bị xử lý sai. Điểm này là mức sẵn sàng tài liệu; chưa có truyện thì END_TO_END = NOT_RUN. Reviewer được trừ điểm dù các từ khóa đều có mặt.
+Mục tiêu lần kiểm thử hiện tại: ít nhất 5 thể loại, mỗi thể loại một STORY_TEXT.txt hoàn chỉnh >8.000, liền mạch và chấm riêng. Không lấy trung bình 5 truyện để bù một truyện dưới ngưỡng. Chỉ báo đạt đợt thử khi cả 5 qua GATE_STORY; một mẫu/thể loại chưa chứng minh ổn định thống kê.
+Đợt thử nhiều truyện có DIVERSITY_MATRIX so xương sống khi bỏ tên riêng: xung đột/động cơ/quan hệ/lựa chọn/cơ chế giải quyết/cao trào/món nợ cảm xúc. Khác nhãn thể loại hoặc sản phẩm không tự chứng minh đa dạng. Nếu nhiều truyện cùng chuỗi đặc thù, sửa ca hội tụ hoặc giải thích căn cứ chức năng; không che bằng điểm từng truyện cao.
+
+G. BẢNG MÃ CHÍNH THỨC (KẾ THỪA NGUYÊN ÁNH XẠ)
+M00 = KHÔNG BẬT A–F (CHỈ ĐỔI TÊN)
+M01 = A
+M02 = B
+M03 = C
+M04 = D
+M05 = E
+M06 = F
+M07 = A+B
+M08 = A+C
+M09 = A+D
+M10 = A+E
+M11 = A+F
+M12 = B+C
+M13 = B+D
+M14 = B+E
+M15 = B+F
+M16 = C+D
+M17 = C+E
+M18 = C+F
+M19 = D+E
+M20 = D+F
+M21 = E+F
+M22 = A+B+C
+M23 = A+B+D
+M24 = A+B+E
+M25 = A+B+F
+M26 = A+C+D
+M27 = A+C+E
+M28 = A+C+F
+M29 = A+D+E
+M30 = A+D+F
+M31 = A+E+F
+M32 = B+C+D
+M33 = B+C+E
+M34 = B+C+F
+M35 = B+D+E
+M36 = B+D+F
+M37 = B+E+F
+M38 = C+D+E
+M39 = C+D+F
+M40 = C+E+F
+M41 = D+E+F
+M42 = A+B+C+D
+M43 = A+B+C+E
+M44 = A+B+C+F
+M45 = A+B+D+E
+M46 = A+B+D+F
+M47 = A+B+E+F
+M48 = A+C+D+E
+M49 = A+C+D+F
+M50 = A+C+E+F
+M51 = A+D+E+F
+M52 = B+C+D+E
+M53 = B+C+D+F
+M54 = B+C+E+F
+M55 = B+D+E+F
+M56 = C+D+E+F
+M57 = A+B+C+D+E
+M58 = A+B+C+D+F
+M59 = A+B+C+E+F
+M60 = A+B+D+E+F
+M61 = A+C+D+E+F
+M62 = B+C+D+E+F
+M63 = A+B+C+D+E+F

@@ -1,0 +1,63 @@
+HOOK_LIBRARY | CƠ CHẾ THAM KHẢO, KHÔNG PHẢI CÂU MẪU ĐỂ CHÉP | v3.2
+Phạm vi: NEW hoặc MODIFY được quyền sửa mở đầu. M00 giữ nguồn. Không lấy ví dụ dưới đây làm sự kiện bắt buộc. Hook phải xuất phát từ blueprint thật, khớp diễn biến và kết; lời hứa có thể là được tôn trọng, sửa hối tiếc, khám phá, trưởng thành, không chỉ báo thù.
+
+1. CHỌN THEO HAI TRỤC
+Trục mô típ trả lời người nghe muốn trải nghiệm điều gì. Trục cơ chế trả lời vì sao câu mở khiến họ muốn nghe tiếp. Không đồng nhất mỗi mô típ với một cấu trúc câu.
+Cơ chế: bất công trong hành động; quyết định có cái giá; nghịch lý; thời hạn; hậu quả biết trước; quan hệ đổi nghĩa; mất điều quen thuộc; cơ hội có giới hạn; dấu hiệu không khớp; lòng tốt gây hệ quả; thắng lợi hóa thành trách nhiệm; lời hứa tình cảm chưa trả.
+Logline trước, thử 3 hook khác cơ chế, chọn theo lời hứa chứ không theo mức độ sốc. Không yêu cầu đúng ba câu: dùng ba câu đầu để kiểm thông tin có tiến triển và không lặp một ý.
+
+2. VÍ DỤ THEO MÔ TÍP — TẤT CẢ ĐỀU LÀ HƯ CẤU MINH HỌA
+TRỌNG SINH | hậu quả biết trước → lựa chọn khác
+“Lần này, khi cha bảo tôi để em trai lên chuyến xe ấy trước, tôi đã giữ tay ông lại.”
+Câu sau cần làm rõ vì sao biết, tai họa nào và giới hạn việc can thiệp. Không mặc định nhân vật đã chết; không cho biết trước mọi thứ mà không có căn cứ.
+XUYÊN KHÔNG CỔ ĐẠI | thân phận yếu → kỹ năng có giới hạn
+“Tôi vừa được giao bếp bánh của phủ thì người coi kho báo rằng bột mì chỉ còn đủ cho một mâm.”
+Sức hút ở bài toán hiện tại và cái giá thất bại. Kiến thức hiện đại cần thử nghiệm, công cụ và giới hạn, không tự giải mọi quy tắc xã hội.
+NIÊN ĐẠI LÀM GIÀU | cơ hội → điều kiện khó
+“Người mua đồng ý lấy hết mẻ tương, với điều kiện nhà tôi giao đủ trước khi con đường vào huyện bị nước lũ cắt.”
+Phải có năng lực làm hàng, nguồn lực và rủi ro thật; không biến câu chuyện sản xuất thành tỷ phú cứu viện.
+HÀO MÔN THẬT–GIẢ | được nhận về → chưa được chọn
+“Cả nhà chờ tôi gọi một tiếng mẹ. Người phụ nữ đứng cạnh bà lại đang nắm chiếc chìa khóa phòng cũ của tôi.”
+Làm rõ quan hệ và lợi ích, không kết luận mọi người xấu chỉ bằng một ánh mắt. Nhân vật có mục tiêu ngoài được nhà giàu công nhận.
+PHÁ ÁN | chi tiết sai lệch → câu hỏi kiểm chứng
+“Người đưa cơm bảo ông cụ đã ăn hết bát cháo, nhưng sáng ấy tôi là người dọn chiếc bát còn nguyên trên bàn.”
+Từ điều quan sát được đến giả thuyết có kiểm chứng. Không biết hung thủ bằng linh cảm, không giấu dữ kiện thiết yếu chỉ để thắng người nghe.
+GIA ĐÌNH LY HÔN | nghĩa vụ → ranh giới
+“Chồng tôi hứa với cả nhà sẽ nghỉ việc chăm mẹ. Tối đó, anh đặt đơn xin nghỉ của tôi lên bàn.”
+Phải triển khai lựa chọn, phụ thuộc, quan hệ và hậu quả. Không phải chuyện nào cũng kết bằng người chồng quỳ xin tha.
+GIA ĐẤU | giữ thể diện → đổi quyền quyết định
+“Đại tẩu mời tôi ngồi ghế chủ nhà, rồi bảo từ hôm nay tiền thuốc của cả phủ sẽ do tôi lo.”
+Đòn bẩy là nghĩa vụ đi cùng vị trí; thoại có hàm ý. Không cần lập tức xuất hiện di chúc bí mật.
+ĐIỀN VĂN | mất mát nhỏ → lựa chọn cộng đồng
+“Cây cầu gãy đúng buổi cả làng chờ mang lứa rau đầu mùa ra chợ. Người duy nhất còn chiếc thuyền lại là người cha tôi đã không nói chuyện suốt bảy năm.”
+Hai tầng vật chất và quan hệ tạo đường dài, không ép bất công hào môn.
+HỆ THỐNG | năng lực → quy tắc và cái giá
+“Hệ thống cho tôi biết ai cần bát mì cuối cùng. Nó không nói tôi phải trả lời thế nào với người đã đứng đợi từ sáng.”
+Thiết lập quy tắc, giới hạn, cách kiểm chứng; lựa chọn vẫn thuộc nhân vật, không phần thưởng vô hạn.
+TU TIÊN | quyền lợi → đánh đổi
+“Sư phụ cho tôi chọn giữa một viên đan cứu mạng và quyền bước vào trận khảo hạch. Người đang chờ thuốc ở ngoài cửa là kẻ vừa cướp suất của tôi.”
+Động cơ, luật tu luyện và hậu quả phải rõ; không giải bằng huyết mạch bất ngờ chưa gieo.
+TÌNH CẢM | lời hứa → điều khó thực hiện
+“Anh giữ lời trở về trước mùa tuyết. Tôi lại là người không còn đứng ở bến xe chờ anh.”
+Cần chuyển nhanh sang hoàn cảnh/lựa chọn có thật, tránh kéo dài thơ mộng mơ hồ; không tự gán phản bội nếu câu chuyện là trưởng thành.
+THÂN PHẬN | bị đánh giá sai → trách nhiệm mới
+“Họ gọi tôi lên chỉ để phiên dịch. Đến khi người khách hỏi ai dám nhận trách nhiệm cho lời hứa ấy, cả bàn quay sang nhìn tôi.”
+Sức hút từ năng lực và rủi ro, không phải cứ lộ chủ tịch là tất cả quỳ xuống.
+
+3. CÁC CẶP SỬA
+Yếu: “Tôi sẽ khiến tất cả phải trả giá.” → cụ thể hóa điều bị lấy và quyết định đầu tiên, không chỉ thêm tính từ.
+Yếu: “Không ai biết bí mật kinh hoàng.” → nêu một sai lệch có thể kiểm chứng, giữ lại câu hỏi có ý nghĩa.
+Yếu: ba câu đều kể mình đau khổ → câu hai cho hậu quả mới, câu ba cho lựa chọn/nguy cơ, nếu phù hợp tình huống.
+Yếu: “Tôi cười lạnh, cả nhà chết lặng.” → viết hành động tạo thay đổi thật và phản ứng riêng của từng người cần xuất hiện.
+Yếu: hook báo thù dữ dội nhưng truyện chính là học nghề → mở bằng nguy cơ/cơ hội của nghề và quan hệ liên quan; không hứa sai trải nghiệm.
+
+4. BỘ LỌC CHỐNG LẶP
+So 3 ứng viên theo chủ thể mở, cơ chế, quan hệ, đòn bẩy, thứ tự thông tin, nhịp câu, lời hứa. Thay ít nhất cơ chế hoặc xung đột thực chất, không chỉ đổi tên đồ vật.
+Đòn bẩy có thể là kỹ năng, thời gian, năng lực hợp tác, quyền từ chối, lòng tin, hiểu quy trình, khả năng chịu trách nhiệm, nguồn lực có giới hạn; chứng cứ/giấy tờ chỉ dùng khi truyện cần và có nguồn.
+Tránh mọi hook đều “Ngày tôi...”, “Kiếp trước...”, “Tôi cười...” hoặc đều có họp gia đình + giấy tờ + cú lật. Không cấm từ riêng lẻ; kiểm sự lặp trong tập truyện thực có.
+
+5. KIỂM TRƯỚC KHI CHỌN
+H1 Tình huống cụ thể? H2 Có kỳ vọng rõ? H3 Câu tiếp tăng hệ quả hay chỉ giải thích lại? H4 Chi tiết có trong truyện? H5 Đúng ngôi kể? H6 Đúng sắc thái/mô típ? H7 Kết trả lời hứa? H8 Có phải biến thể quá gần ví dụ? H9 Có mở bằng sốc vô căn cứ? H10 Có quyền sửa hook không?
+Không chấm hook riêng rồi suy ra cả truyện hấp dẫn. Phải kiểm sức hút phần giữa và dư âm kết bằng STORY_RUBRIC.
+Đối chiếu hợp đồng mô típ STORY_STYLE S10: hook phá án phải dẫn đến suy luận có kiểm chứng, hook niên đại đến bài toán đổi đời có kết quả vật chất, hook thật–giả đến hệ quả danh phận. Không dùng hook đúng thể loại để bọc một thân truyện khác lời hứa. Khi làm nhiều truyện, so cơ chế ở cả thân/kết bằng DIVERSITY_MATRIX, không chỉ đổi câu đầu.
+Các lời khuyên “tránh” thuộc hồ sơ lựa chọn hook, không phải lời mở truyện. Không mở bằng tuyên bố mình không giống một nhân vật/câu chuyện mẫu; đưa tình huống thật và để lựa chọn tạo khác biệt.
