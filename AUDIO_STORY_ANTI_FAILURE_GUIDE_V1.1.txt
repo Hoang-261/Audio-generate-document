@@ -1,0 +1,922 @@
+AUDIO STORY — ANTI-FAILURE & REVISION GUIDE V1.1
+SỔ TAY PHÁT HIỆN SAI LẦM, PHÒNG TRÁNH, CHẨN ĐOÁN VÀ SỬA TRUYỆN AUDIO
+====================================================================
+Ngày biên soạn: 29/10/2026 | Bản V1.1: đối chiếu 13 lỗi + 4 cơ chế mở rộng truyện
+Ngôn ngữ: Tiếng Việt | Đầu ra: Văn bản dành cho truyện audio/TTS
+
+MỤC ĐÍCH
+Tổng hợp các sai lầm đã thảo luận trong quá trình nghiên cứu AUDIO STORY AGENT,
+biến phân tích thành hành động biên tập. Đây là TÀI LIỆU NGHIÊN CỨU / THAM CHIẾU,
+KHÔNG phải file thứ năm phải nạp cho Agent. Sau khi kiểm chứng, nội dung cần
+được phân bổ vào đúng bốn file: AGENT_SETUP, STORY_STYLE, STORY_RULES, HOOK_LIBRARY.
+
+GIỚI HẠN CẦN NHỚ
+- Đây là hệ thống nguyên tắc và phép kiểm tra biên tập đề xuất, không phải thang đo
+  khoa học đã xác nhận có thể dự đoán chắc chắn tỷ lệ giữ chân người nghe.
+- Phân biệt NEW và MODIFY. Không dùng quy tắc “viết hay hơn” để sửa trái khóa MODIFY.
+- M00 chỉ cho thay tên trong phạm vi quyền; không tự thêm/cắt nội dung để đạt số từ.
+- Truyện chỉ đạt trạng thái HOÀN THÀNH khi đã thực sự có toàn văn >8.000 từ,
+  được đếm, với truyện có quyền sáng tác/biên tập phù hợp. Mọi trường hợp xung đột
+  phải được báo trung thực.
+- Không đánh đồng câu ngắn với dễ nghe; không đánh đồng nhiều biến cố với tiến triển;
+  không đánh đồng chịu đựng dài với cao trào tốt; không đánh đồng checklist với chất lượng.
+
+CẤU TRÚC MỖI MỤC
+DẤU HIỆU → NGUYÊN NHÂN → PHÒNG TRÁNH → CÁCH SỬA → TIÊU CHÍ KIỂM → NGOẠI LỆ.
+Các mục là phương án chẩn đoán, không phải lệnh cấm tuyệt đối.
+
+
+==============================================================================
+A. CẤU TRÚC, ĐỘ DÀI VÀ TIẾN TRIỂN
+==============================================================================
+
+[AF01] KÉO DÀI ĐỂ ĐỦ CHỈ TIÊU TỪ
+  DẤU HIỆU   : Truyện có 9.000–10.000 từ nhưng cốt truyện chỉ đủ sức cho một truyện ngắn; nhiều cảnh không làm thay đổi gì.
+  NGUYÊN NHÂN: Đặt số từ lên trước xung đột và nhân quả; bù dung lượng bằng hồi tưởng, nói lại, cảnh phụ.
+  CÁCH TRÁNH : Chốt lời hứa cảm xúc, cao trào và chuỗi lựa chọn–trở ngại–hậu quả trước; chỉ phân ngân sách từ sau khi dàn ý chứng minh đủ chất liệu.
+  CÁCH SỬA   : Lập bảng chức năng từng cảnh. Cắt/gộp cảnh không làm thay đổi mục tiêu, thông tin, quan hệ, nguy cơ, lựa chọn hoặc trạng thái cảm xúc có ý nghĩa; nếu thiếu độ dài, thiết kế thêm trở ngại có hậu quả thực thay vì đệm chữ.
+  KIỂM TRA   : Mỗi cảnh có một đóng góp không thể thay thế; truyện >8.000 từ sau biên tập, đếm thật.
+  TRÁNH CỰC ĐOAN: Không cắt mọi khoảng lặng: một cảnh yên tĩnh thay đổi quan hệ hoặc quyết định vẫn có giá trị.
+
+[AF02] LẶP THÔNG TIN BẰNG TỪ NGỮ KHÁC NHAU
+  DẤU HIỆU   : Nhiều đoạn nhắc lại nhân vật bị đối xử bất công dù câu chữ không trùng.
+  NGUYÊN NHÂN: Chỉ chống lặp từ, không so sánh chức năng thông tin/cảm xúc.
+  CÁCH TRÁNH : Lập sổ sự thật người nghe đã biết; chỉ nhắc lại khi thông tin đổi nghĩa, trở thành bằng chứng, hoặc cần định hướng sau khoảng cách dài.
+  CÁCH SỬA   : Tô màu ý chính mỗi đoạn; giữ đoạn mới có dữ kiện/hành động/quyết định; chuyển phần lặp thành hành vi mới hoặc xóa.
+  KIỂM TRA   : Một đoạn giải thích lại phải tạo công dụng mới, không chỉ đổi cách diễn đạt.
+  TRÁNH CỰC ĐOAN: Trong audio có thể cần nhắc thông tin thiết yếu; cấm lặp vô ích chứ không cấm nhắc lại đúng lúc.
+
+[AF03] NHIỀU XUNG ĐỘT NHƯNG KHÔNG LEO THANG
+  DẤU HIỆU   : Lặp cảnh mắng chửi, đe dọa, cãi vã; đối phương tăng độ ồn nhưng không tăng mức khó.
+  NGUYÊN NHÂN: Nhầm số lần đối đầu hoặc cường độ lời nói với mức độ rủi ro thực.
+  CÁCH TRÁNH : Mỗi vòng xung đột phải đổi ít nhất một biến: quyền lực, hậu quả, mục tiêu, quan hệ, bằng chứng, thời hạn, tổn thất.
+  CÁCH SỬA   : Gộp các lần cãi nhau cùng chức năng; thay lần tiếp theo bằng bước leo thang có nguyên nhân như cắt nguồn lực, thay đồng minh, công khai sức ép.
+  KIỂM TRA   : Sau từng cuộc đối đầu phải trả lời được: tình thế mới khó/khác trước ở đâu?
+  TRÁNH CỰC ĐOAN: Không tăng rủi ro liên tục đến mức phi lý; có thể dùng khoảng nghỉ hoặc thắng lợi nhỏ.
+
+[AF04] ĐÁP TRẢ QUYẾT ĐỊNH QUÁ SỚM
+  DẤU HIỆU   : Nhân vật đưa bằng chứng mạnh nhất và đánh bại xung đột chính đầu truyện; phần sau phải bịa thêm đối thủ.
+  NGUYÊN NHÂN: Nhầm chủ động với chiến thắng toàn diện; hook tiết lộ luôn kết quả thực thi.
+  CÁCH TRÁNH : Phân biệt hành động phòng vệ, phản kháng, thắng nhỏ và đòn quyết định. Thiết kế điều kiện chiến thắng và lý do chưa thể hoàn thành sớm.
+  CÁCH SỬA   : Đưa kết quả quyết định về điểm nhân quả xứng đáng, đồng thời viết lại điều kiện, trở ngại, chuẩn bị và phản ứng đối thủ; không chỉ di chuyển nguyên cảnh xuống cuối.
+  KIỂM TRA   : Cao trào giải quyết xung đột trung tâm sau quá trình tích lũy có thật.
+  TRÁNH CỰC ĐOAN: Không cấm hook nói trước kết quả hoặc nhân vật hành động mạnh đầu truyện; điều phải tránh là làm cạn động lực kể.
+
+[AF05] TRÌ HOÃN QUÁ LÂU, NHÂN VẬT CHỈ CHỊU ĐỰNG
+  DẤU HIỆU   : Đối phương gây bất công hết lần này đến lần khác; nhân vật chỉ nhịn, khóc, thề sẽ trả thù.
+  NGUYÊN NHÂN: Hiểu sai “đáp trả ở đỉnh điểm” thành “không được phản ứng trước đỉnh điểm”.
+  CÁCH TRÁNH : Thiết kế đường phản công song song: tìm chứng cứ, giữ quyền lựa chọn, thử chiến thuật, giành thắng lợi nhỏ và trả giá.
+  CÁCH SỬA   : Chèn các lựa chọn chủ động có hệ quả; nếu thiếu năng lực phản công, xây trở ngại hữu hình và kế hoạch vượt qua.
+  KIỂM TRA   : Mỗi chặng nhân vật có quyết định hoặc điều chỉnh cách hành động.
+  TRÁNH CỰC ĐOAN: Phản ứng không nhất thiết là đối đầu trực diện; rút lui có tính toán cũng là chủ động.
+
+[AF06] NHỊP NHANH NHƯNG CỐT TRUYỆN ĐỨNG YÊN
+  DẤU HIỆU   : Đoạn đầy điện thoại, đi lại, đối thoại, cãi nhau, nhưng mục tiêu và hiểu biết không đổi.
+  NGUYÊN NHÂN: Đo tốc độ bằng số sự kiện thay vì mức thay đổi sau sự kiện.
+  CÁCH TRÁNH : Định nghĩa trạng thái trước/sau mỗi cảnh: ai muốn gì, biết gì, có gì, mất gì, quan hệ đổi ra sao.
+  CÁCH SỬA   : Rút các hoạt động không tạo khác biệt; thay bằng một hành động quyết định làm đổi trạng thái.
+  KIỂM TRA   : Đoạn dài hay ngắn đều có thay đổi có ý nghĩa, không chỉ nhiều động từ.
+  TRÁNH CỰC ĐOAN: Cảnh nội tâm có thể tạo tiến triển nếu dẫn đến lựa chọn khác.
+
+[AF07] TUYẾN PHỤ LẤN ÁT LỜI HỨA TRUNG TÂM
+  DẤU HIỆU   : Truyện mở về tranh chấp tài sản nhưng giữa truyện lao sang tình cũ, án mạng, thân phận bí mật không liên quan.
+  NGUYÊN NHÂN: Nạp thêm mô típ để tăng hấp dẫn mà không kiểm tra liên hệ nhân quả.
+  CÁCH TRÁNH : Viết một câu mô tả điều người nghe đang chờ được giải quyết; mọi tuyến phụ phải tác động đến mục tiêu, trở ngại, quan hệ hoặc cao trào chính.
+  CÁCH SỬA   : Loại/gộp tuyến phụ vô can; hoặc nối nó bằng hậu quả thật, không bằng một lời giải thích gượng ép.
+  KIỂM TRA   : Người nghe luôn biết xung đột trung tâm là gì dù có tuyến phụ.
+  TRÁNH CỰC ĐOAN: Truyện đa tuyến vẫn hợp lệ khi có cấu trúc chủ ý; không ép mọi tuyến về một nhân vật.
+
+[AF08] VÒNG XUNG ĐỘT KHỞI ĐỘNG LẠI
+  DẤU HIỆU   : Thắng một kẻ xấu, người khác xuất hiện gây cùng kiểu bất công, rồi lại thắng, cứ thế.
+  NGUYÊN NHÂN: Thiếu bộ nhớ hậu quả; xem mỗi chặng như một truyện riêng.
+  CÁCH TRÁNH : Vòng mới phải kế thừa biến đổi của vòng trước: quyền lực, uy tín, chi phí, quan hệ, thông tin.
+  CÁCH SỬA   : Thay xung đột tương tự bằng hệ quả khác loại do chiến thắng trước gây ra.
+  KIỂM TRA   : Các chặng không thể hoán đổi dễ dàng mà vẫn giữ nguyên cốt truyện.
+  TRÁNH CỰC ĐOAN: Có thể dùng cấu trúc nhiều vụ việc ở truyện trinh thám/tập truyện; khi đó phải có tiến triển của tuyến xuyên suốt.
+
+[AF09] CAO TRÀO KHÔNG ĐƯỢC CHUẨN BỊ
+  DẤU HIỆU   : Bản ghi âm, luật sư, cổ phần bí mật, thân phận thật xuất hiện đúng khoảnh khắc cần giải quyết.
+  NGUYÊN NHÂN: Viết kết quả trước nhưng bỏ qua nguồn gốc bằng chứng và giới hạn quyền lực.
+  CÁCH TRÁNH : Thiết kế ngược: muốn thắng cần gì → vì sao thiếu → giành bằng cách nào → đối phương phản ứng ra sao → trả giá gì.
+  CÁCH SỬA   : Lùi về các cảnh trước để gieo dữ kiện, thiết lập nguồn lực; nếu không thể làm hợp lý, hạ quy mô chiến thắng.
+  KIỂM TRA   : Người nghe có thể truy ngược nguyên nhân của kết quả sau khi nghe xong.
+  TRÁNH CỰC ĐOAN: Có thể giấu kế hoạch với người nghe, nhưng không được tạo vật chứng từ hư không.
+
+[AF10] KẾT THÚC QUÁ DÀI HOẶC QUÁ CỤT
+  DẤU HIỆU   : Truyện hết xung đột vẫn thêm nhiều trang tổng kết; hoặc thắng một câu rồi dừng không có hậu quả.
+  NGUYÊN NHÂN: Không phân biệt giải quyết tình tiết với hoàn thành lời hứa cảm xúc.
+  CÁCH TRÁNH : Xác định điều cần thấy sau cao trào: hậu quả, cái giá, quan hệ, dư âm; chỉ giữ cảnh phục vụ các mục tiêu đó.
+  CÁCH SỬA   : Cắt hậu truyện lặp ý, bổ sung một cảnh hệ quả nếu thiếu. Không tự ép kết viên mãn hay giảng đạo.
+  KIỂM TRA   : Kết thúc vừa trả lời kỳ vọng chính vừa để lại sắc thái phù hợp.
+  TRÁNH CỰC ĐOAN: Một số thể loại chủ ý kết mở; “đầy đủ” không đồng nghĩa giải thích mọi bí mật.
+
+==============================================================================
+B. NHÂN VẬT, CẢM XÚC VÀ ĐỘ TIN CẬY
+==============================================================================
+
+[AF11] NHÂN VẬT CHÍNH BIẾT HẾT, THẮNG QUÁ DỄ
+  DẤU HIỆU   : Nhân vật dự đoán mọi bước đi và luôn có phương án đúng; các thất bại chỉ để làm màu.
+  NGUYÊN NHÂN: Nhầm năng lực hoặc ký ức trọng sinh với quyền kiểm soát tuyệt đối.
+  CÁCH TRÁNH : Tách “biết” khỏi “chứng minh”, “được tin”, “có quyền làm”, “chịu nổi cái giá”. Gắn giới hạn thật cho lợi thế.
+  CÁCH SỬA   : Thay một vài chiến thắng dễ bằng tình huống buộc chọn giữa hai mục tiêu có giá; đối thủ thích nghi hợp lý.
+  KIỂM TRA   : Nhân vật có thể giỏi nhưng vẫn phải lựa chọn trước bất định.
+  TRÁNH CỰC ĐOAN: Không cố làm nhân vật kém thông minh chỉ để tạo kịch tính.
+
+[AF12] PHẢN DIỆN ĐỘT NHIÊN NGU NGỐC
+  DẤU HIỆU   : Đối thủ có quyền thế nhưng tự thú, để bằng chứng lộ, đe dọa vô cớ.
+  NGUYÊN NHÂN: Tác giả cần nhân vật chính thắng nên làm đối thủ mất năng lực.
+  CÁCH TRÁNH : Xác định mục tiêu, nguồn lực, thông tin và rủi ro mà phản diện nhận thức; phản ứng của họ phải phục vụ lợi ích bản thân.
+  CÁCH SỬA   : Viết lại hành động đối thủ bằng suy luận từ góc nhìn họ. Nếu họ mắc lỗi, đặt nguyên nhân hợp lý (kiêu ngạo đã được gieo, thiếu dữ kiện, áp lực).
+  KIỂM TRA   : Đối thủ không hành động vô lý chỉ để lót đường cho cao trào.
+  TRÁNH CỰC ĐOAN: Phản diện không nhất thiết luôn thông minh; tính nhất quán mới là tiêu chí.
+
+[AF13] NHÂN VẬT KHÔNG CÓ LỰA CHỌN CÓ GIÁ
+  DẤU HIỆU   : Nhân vật đi qua loạt biến cố nhưng không phải quyết định điều khó khăn nào.
+  NGUYÊN NHÂN: Cốt truyện bị sự kiện và sự giúp đỡ từ bên ngoài kéo đi.
+  CÁCH TRÁNH : Ở các bước ngoặt, đặt ít nhất hai khả năng với đánh đổi thật; chọn lựa phải đổi quan hệ hoặc kết quả.
+  CÁCH SỬA   : Thay “người khác cứu” bằng hành động của nhân vật; nếu vẫn cần cứu trợ, buộc nhân vật góp phần tạo cơ hội đó.
+  KIỂM TRA   : Biến cố quan trọng có sự tham gia nhân quả từ lựa chọn nhân vật.
+  TRÁNH CỰC ĐOAN: Không ép mọi nhân vật phải trải qua hành trình thay đổi tính cách rõ rệt.
+
+[AF14] CẢM XÚC PHÓNG ĐẠI MỌI LÚC
+  DẤU HIỆU   : Mỗi tin nhắn đều khiến nhân vật “chết lặng”, “sụp đổ”, “tim như vỡ nát”.
+  NGUYÊN NHÂN: Dùng từ cường độ cao để thay việc xây dựng hoàn cảnh.
+  CÁCH TRÁNH : Tạo thang cảm xúc từ phản ứng nhỏ, nhận thức mới, mất mát rõ, khủng hoảng; cho lời nói/hành động thể hiện.
+  CÁCH SỬA   : Giảm tính từ và lời tuyên bố; thay bằng phản ứng cụ thể phù hợp con người và mức đe dọa.
+  KIỂM TRA   : Cảm xúc cao độ có tích lũy và tương phản với thời điểm bình thường.
+  TRÁNH CỰC ĐOAN: Một sự kiện nhỏ có thể là giọt nước tràn ly nếu phần tích lũy đã rõ.
+
+[AF15] TÍCH LŨY BẤT CÔNG NHƯNG KHÔNG TÍCH LŨY HY VỌNG
+  DẤU HIỆU   : Người nghe chuyển từ thương nhân vật sang bực vì nhân vật mãi chịu đựng.
+  NGUYÊN NHÂN: Chỉ xây đường áp lực từ đối thủ, không xây đường học hỏi/chuẩn bị của nhân vật.
+  CÁCH TRÁNH : Đan xen dấu hiệu nhân vật đang nhận ra quy luật, thu thập đòn bẩy, giữ quyền lựa chọn và có đồng minh.
+  CÁCH SỬA   : Gắn hoạt động chuẩn bị vào các chặng; xây “thắng nhỏ – trả giá – điều chỉnh”, không giữ bất động đến cuối.
+  KIỂM TRA   : Người nghe thấy tiến trình phản công dù chiến thắng chưa tới.
+  TRÁNH CỰC ĐOAN: Không bắt buộc nhân vật phải phản kháng bằng bạo lực hay đấu khẩu.
+
+[AF16] KHOẢNG LẶNG VÔ NGHĨA HOẶC BỊ XÓA SẠCH
+  DẤU HIỆU   : Truyện lê thê vì suy tư dài; hoặc dồn dập thành chuỗi hành động vô cảm.
+  NGUYÊN NHÂN: Không phân biệt cảnh nghỉ có chức năng và cảnh đệm.
+  CÁCH TRÁNH : Giữ cảnh yên tĩnh nếu nó đổi nhận thức, quan hệ, lựa chọn hoặc giúp cảm xúc có trọng lượng.
+  CÁCH SỬA   : Với cảnh nghỉ rỗng: cắt/gộp. Với truyện quá gấp: bổ sung khoảnh khắc ngắn có hành vi, không giải thích dài.
+  KIỂM TRA   : Khoảng lặng có tác dụng kể chuyện, không phải dấu “đến đoạn chậm”.
+  TRÁNH CỰC ĐOAN: Độ dài nghỉ phụ thuộc mô típ và mức tổn thất.
+
+[AF17] TWIST DỒN DẬP, THIẾU NGUYÊN NHÂN
+  DẤU HIỆU   : Cứ vài cảnh xuất hiện con riêng, hợp đồng giả, thân phận mới; sự thật liên tục bị đảo vô căn cứ.
+  NGUYÊN NHÂN: Nhầm số lượng twist với giá trị bất ngờ.
+  CÁCH TRÁNH : Chọn một số bí mật có vai trò thực; gieo mầm theo kiến thức nhân vật và hậu quả thực.
+  CÁCH SỬA   : Loại twist trang trí; xây lại twist chủ chốt từ sự thật đã có cơ sở và hậu quả kéo dài.
+  KIỂM TRA   : Nghe lại vẫn giải thích được vì sao twist xảy ra.
+  TRÁNH CỰC ĐOAN: Truyện không bắt buộc có twist lớn; truyện đời thường có thể hấp dẫn bằng lựa chọn.
+
+[AF18] CLIFFHANGER GIẢ HOẶC HỨA MỘT ĐẰNG KỂ MỘT NẺO
+  DẤU HIỆU   : “Người bất ngờ nhất xuất hiện” nhưng là người giao hàng không liên quan; hook hứa báo thù nhưng thân truyện chuyển sang tản mạn.
+  NGUYÊN NHÂN: Dùng câu giật gân không gắn nguy cơ và phần thưởng thật.
+  CÁCH TRÁNH : Cliffhanger phải móc vào quyết định, nguy cơ hoặc bí mật có thật; kiểm tra hook khớp xung đột và kết.
+  CÁCH SỬA   : Thay câu mơ hồ bằng biến cố cụ thể và hệ quả; nếu lời hứa mở đầu sai, sửa hook hoặc sửa mạch truyện nhất quán.
+  KIỂM TRA   : Mọi lời hứa đáng kể đều có điểm thanh toán cảm xúc.
+  TRÁNH CỰC ĐOAN: Có thể đánh lạc hướng hợp lý, nhưng không lừa người nghe bằng chi tiết vô nghĩa.
+
+[AF19] HIỂU LẦM GƯỢNG ÉP ĐỂ KÉO DÀI
+  DẤU HIỆU   : Hai người có thể giải thích bằng một câu nhưng lại im lặng hàng chục cảnh mà không có lý do.
+  NGUYÊN NHÂN: Duy trì mâu thuẫn bằng cách làm nhân vật tránh giao tiếp phi tự nhiên.
+  CÁCH TRÁNH : Chỉ dùng hiểu lầm khi có bất cân xứng thông tin, sợ hãi, lợi ích hoặc hậu quả khiến việc nói thật khó.
+  CÁCH SỬA   : Bổ sung nguyên nhân cản trở giao tiếp, hoặc cho nhân vật nói chuyện để tạo xung đột thực tiếp theo.
+  KIỂM TRA   : Người nghe hiểu vì sao lời giải thích trực diện chưa giải quyết được vấn đề.
+  TRÁNH CỰC ĐOAN: Không phải mọi câu chuyện cần hiểu lầm; đừng thêm chỉ để kéo từ.
+
+==============================================================================
+C. VĂN PHONG VÀ HỘI THOẠI DÀNH CHO TAI
+==============================================================================
+
+[AF20] MIÊU TẢ ĐẸP CHO MẮT NHƯNG THỪA VỚI TAI
+  DẤU HIỆU   : Nhiều màu sắc, đồ nội thất, ánh sáng, trang phục dù không ảnh hưởng diễn biến.
+  NGUYÊN NHÂN: Đánh giá giá trị câu văn dựa trên độ đẹp thay vì lượng thông tin cần nghe.
+  CÁCH TRÁNH : Mỗi chi tiết tả phải định vị tình huống, khắc họa cảm xúc, báo nguy cơ, gieo chứng cứ hoặc thay đổi cảm nhận.
+  CÁCH SỬA   : Cắt các chi tiết không có chức năng; ưu tiên một chi tiết có sức gợi và giá trị cốt truyện.
+  KIỂM TRA   : Hình ảnh giúp người nghe hình dung mà không phải ghi nhớ danh sách vô ích.
+  TRÁNH CỰC ĐOAN: Không cấm văn chương/ẩn dụ; chỉ giới hạn chi tiết gây rối hoặc lặp công dụng.
+
+[AF21] ĐỘC THOẠI NỘI TÂM GIẢI THÍCH QUÁ MỨC
+  DẤU HIỆU   : Nhân vật liên tiếp thuật lại mình buồn, tức, bị phản bội thay vì để hành động nói lên.
+  NGUYÊN NHÂN: Không tin người nghe tự suy luận; nhầm ngôi kể thứ nhất với độc thoại kéo dài.
+  CÁCH TRÁNH : Giữ nội tâm khi làm rõ lựa chọn, mâu thuẫn bên trong hoặc nhận thức thay đổi.
+  CÁCH SỬA   : Chuyển giải thích cảm xúc lặp lại thành một phản ứng hoặc quyết định; rút đoạn còn những suy nghĩ thật sự mới.
+  KIỂM TRA   : Nghe xong người nghe hiểu ý nghĩ quan trọng và thấy cốt truyện tiến lên.
+  TRÁNH CỰC ĐOAN: Có truyện thiên về tâm lý cần nội tâm nhiều hơn; không cắt máy móc.
+
+[AF22] LỜI THOẠI GIỐNG BÁO CÁO VÀ ĐỌC TIỂU SỬ
+  DẤU HIỆU   : Nhân vật nói cả đoạn dài tổng kết số năm cống hiến, quan hệ và dữ kiện mà hai bên đều biết.
+  NGUYÊN NHÂN: Dùng đối thoại như công cụ thuyết minh cho người nghe.
+  CÁCH TRÁNH : Mỗi lượt thoại phải có mục đích giao tiếp: thuyết phục, né tránh, đe dọa, xin giúp đỡ, thử phản ứng, giữ thể diện...
+  CÁCH SỬA   : Viết lại thành lời nói hợp vai vế, có phản ứng đối phương và hàm ý; chuyển dữ kiện buộc phải giải thích sang lời kể ngắn.
+  KIỂM TRA   : Đọc thành tiếng nghe giống người có mục tiêu, không phải tài liệu họp.
+  TRÁNH CỰC ĐOAN: Phát biểu công khai hoặc lời khai pháp lý có thể trang trọng khi đúng hoàn cảnh.
+
+[AF23] NGƯỜI KỂ GIẢI THÍCH ĐIỀU NGƯỜI NGHE ĐÃ HIỂU
+  DẤU HIỆU   : Sau hành động lén đổi tài liệu lại nói ngay “hành động đó chứng tỏ anh ta gian dối”.
+  NGUYÊN NHÂN: Sợ người nghe không hiểu nên diễn giải ý nghĩa mọi hành động.
+  CÁCH TRÁNH : Tin vào suy luận ở các ý rõ; chỉ giải thích hệ quả chuyên môn, điều kiện hoặc sự khác biệt chưa thể biết.
+  CÁCH SỬA   : Xóa lời bình lặp nghĩa; dùng hành động kế tiếp cho thấy hậu quả.
+  KIỂM TRA   : Người nghe có chỗ tự kết nối sự kiện mà không bị bỏ rơi trước dữ kiện mơ hồ.
+  TRÁNH CỰC ĐOAN: Những chi tiết luật, tài chính hoặc mốc thời gian khó vẫn cần giải thích gọn.
+
+[AF24] CÂU QUÁ DÀI, NHIỀU MỆNH ĐỀ
+  DẤU HIỆU   : Một câu chứa bối cảnh, quan hệ cổ phần, thời gian, người nói, phủ định và quyết định.
+  NGUYÊN NHÂN: Viết như văn bản để đọc lại, không tính khả năng nghe một lượt.
+  CÁCH TRÁNH : Một nhịp câu ưu tiên một quan hệ ý chính; khi đổi chủ ngữ, nguyên nhân hoặc thời gian nên cân nhắc chia câu.
+  CÁCH SỬA   : Tách câu theo các mốc nghe tự nhiên; giới thiệu người và điều kiện trước khi đến kết luận.
+  KIỂM TRA   : Nghe một lần hiểu được ai, làm gì, tại sao mà ít cần tua lại.
+  TRÁNH CỰC ĐOAN: Không áp số từ tối đa cứng cho mọi câu.
+
+[AF25] CÂU NÀO CŨNG CỤT, NHỊP ĐỌC CHẶT VỤN
+  DẤU HIỆU   : “Tôi đứng dậy. Anh tức giận. Tôi quay đi. Anh bước tới.” kéo dài nhiều đoạn.
+  NGUYÊN NHÂN: Hiểu sai “audio phải rõ” thành “mọi câu đều cực ngắn”.
+  CÁCH TRÁNH : Thay đổi độ dài và cấu trúc theo nhịp đối thoại, cảm xúc, hành động.
+  CÁCH SỬA   : Gộp câu liên quan, thay động từ trùng lặp, dùng nhịp ngắt tự nhiên.
+  KIỂM TRA   : Đoạn đọc có dòng chảy chứ không như liệt kê hành động.
+  TRÁNH CỰC ĐOAN: Cảnh gấp có thể dùng chuỗi câu ngắn có chủ đích.
+
+[AF26] NHIỀU TÊN NHÂN VẬT KHÓ PHÂN BIỆT
+  DẤU HIỆU   : Nhân vật cùng xuất hiện có tên gần âm; gọi thay đổi liên tục giữa tên, vai trò, biệt danh.
+  NGUYÊN NHÂN: Chỉ xét tên Trung Quốc hợp văn hóa mà bỏ qua tính rõ khi nghe.
+  CÁCH TRÁNH : Thiết kế danh sách nhân vật và cách xưng hô, ưu tiên âm thanh phân biệt đối với vai trò chính.
+  CÁCH SỬA   : Đổi tên dễ nhầm trong phạm vi được phép; kiểm tra nhất quán toàn bản; rút nhân vật không cần thiết.
+  KIỂM TRA   : Nghe từng cảnh nhiều người vẫn nhận ra ai là ai.
+  TRÁNH CỰC ĐOAN: Trong MODIFY M00 chỉ thay tên theo quyền cho phép; không tự đổi vai trò để khắc phục.
+
+[AF27] ĐẠI TỪ VÀ NGƯỜI NÓI MƠ HỒ
+  DẤU HIỆU   : “Anh bảo anh ấy nói với cô ấy” và chuỗi thoại ba người không rõ lượt.
+  NGUYÊN NHÂN: Dựa vào xuống dòng/dấu ngoặc kép để phân biệt người nói, còn audio chỉ phát một luồng.
+  CÁCH TRÁNH : Đặt lại tên/vai trò tại điểm nhập nhằng; dùng hành động hoặc lời dẫn thoại tự nhiên.
+  CÁCH SỬA   : Đọc không nhìn chữ, đánh dấu mọi đại từ có >1 tham chiếu khả dĩ; viết lại tối thiểu.
+  KIỂM TRA   : Không cần quay lại câu trước để biết ai đang nói.
+  TRÁNH CỰC ĐOAN: Không thay mọi đại từ bằng tên vì gây lặp tên khó nghe.
+
+[AF28] CHUYỂN THỜI GIAN, NƠI CHỐN, ĐIỂM NHÌN ĐỘT NGỘT
+  DẤU HIỆU   : Cảnh hôm nay sang ba năm trước mà không báo; người kể “tôi” đột nhiên biết suy nghĩ người khác.
+  NGUYÊN NHÂN: Người viết nhìn thấy phân đoạn trên trang hoặc biết toàn bộ dàn ý.
+  CÁCH TRÁNH : Mỗi chuyển lớn có tín hiệu ngắn; ràng buộc nguồn thông tin theo ngôi kể và khả năng biết của nhân vật.
+  CÁCH SỬA   : Bổ sung “Ba năm trước...”, “Sáng hôm sau...”, “Sau này tôi mới biết...”; sửa đoạn lộ thông tin ngoài ngôi kể.
+  KIỂM TRA   : Nghe không nhìn trang vẫn định vị được thời điểm và người kể.
+  TRÁNH CỰC ĐOAN: Không phải cảnh nào cũng cần ghi ngày, giờ và địa điểm.
+
+[AF29] CON SỐ, KÝ HIỆU, NGOẶC VÀ PHẦN GHI CHÚ LỌT VÀO TTS
+  DẤU HIỆU   : TTS đọc tiêu đề cảnh, mã kỹ thuật, ngoặc kép, danh sách cổ phần, ký hiệu pháp lý sai nhịp.
+  NGUYÊN NHÂN: Dùng văn bản biên tập làm luôn văn bản xuất âm thanh.
+  CÁCH TRÁNH : Tách STORY_TEXT thuần khỏi QA/outline; chuẩn hóa những con số và chữ viết tắt khó đọc khi cần.
+  CÁCH SỬA   : Làm sạch nội dung kỹ thuật khỏi STORY_TEXT, rà các đoạn tiền, ngày, phần trăm, tên viết tắt bằng công cụ TTS dự kiến.
+  KIỂM TRA   : Bản đưa vào tổng hợp giọng chỉ chứa văn bản cần nói.
+  TRÁNH CỰC ĐOAN: Không chuyển hết số thành chữ một cách máy móc nếu TTS xử lý tốt hoặc số đóng vai trò manh mối.
+
+[AF30] TTS ĐỌC ĐÚNG CHỮ NHƯNG SAI SẮC THÁI
+  DẤU HIỆU   : “Tôi biết rồi” đáng lẽ lạnh lùng nhưng giọng đọc giống vui vẻ; đối thoại đều đều.
+  NGUYÊN NHÂN: Trông chờ hệ thống TTS suy ra hết sắc thái khi ngữ cảnh yếu.
+  CÁCH TRÁNH : Viết ngữ cảnh và phản ứng đủ rõ; xác định các đoạn khó về mỉa mai, đau đớn, kiềm nén để nghe thử.
+  CÁCH SỬA   : Điều chỉnh lời dẫn/nhịp câu hoặc tham số TTS có hỗ trợ thực; không nhồi dấu ba chấm.
+  KIỂM TRA   : Người nghe hiểu tương đối đúng ý định của lời nói.
+  TRÁNH CỰC ĐOAN: Khả năng biểu cảm phụ thuộc giọng và hệ thống, không thể “bảo đảm” bằng văn bản.
+
+==============================================================================
+D. THÔNG TIN, LOGIC VÀ ĐẶC TRƯNG MÔ TÍP
+==============================================================================
+
+[AF31] GIẤU THÔNG TIN KHIẾN NGƯỜI NGHE HOANG MANG
+  DẤU HIỆU   : Người nghe không biết nhân vật muốn gì, đang ở đâu hoặc vì sao chuyển mục tiêu; tác giả lại tưởng đang tạo bí ẩn.
+  NGUYÊN NHÂN: Nhầm câu hỏi chưa có lời giải với sự thiếu định hướng cơ bản.
+  CÁCH TRÁNH : Giữ bí mật về nguyên nhân/kẻ đứng sau, nhưng làm rõ mục tiêu trước mắt, biến cố và giới hạn kiến thức.
+  CÁCH SỬA   : Ở cuối từng chặng, hỏi người chỉ biết đến đây: đang chờ điều gì? Nếu không trả lời được, bổ sung trục mục tiêu.
+  KIỂM TRA   : Người nghe tò mò về điều chưa biết nhưng vẫn theo được điều đang xảy ra.
+  TRÁNH CỰC ĐOAN: Truyện trinh thám có thể cố tình gây hoài nghi; vẫn cần mốc định hướng.
+
+[AF32] THÔNG TIN TỰ XUẤT HIỆN VÀ LOGIC QUYỀN LỰC MƠ HỒ
+  DẤU HIỆU   : Nhân vật biết kế hoạch kín, ký hợp đồng, chuyển cổ phần, đe dọa pháp lý không có nguồn lực thực.
+  NGUYÊN NHÂN: Không theo dõi ai biết gì, điều kiện pháp lý, bằng chứng và phản ứng xã hội.
+  CÁCH TRÁNH : Tạo bảng thời gian/kiến thức/nguồn lực/quan hệ; nguyên nhân phải dẫn tới hệ quả trong bối cảnh truyện.
+  CÁCH SỬA   : Truy ngược từng quyết định lớn đến người cung cấp thông tin, tài liệu, khả năng hành động; điều chỉnh biến cố nếu thiếu mắt xích.
+  KIỂM TRA   : Không có cú thắng chỉ vì tác giả bất ngờ trao quyền.
+  TRÁNH CỰC ĐOAN: Truyện giả tưởng có luật nội tại riêng, không cần rập khuôn đời thực.
+
+[AF33] ÁP MỘT CÔNG THỨC BÁO THÙ CHO MỌI MÔ TÍP
+  DẤU HIỆU   : Điền văn, chữa lành, tình cảm đều bị ép có phản diện, màn vả mặt, twist cuối.
+  NGUYÊN NHÂN: Lấy tiêu chí từ một mô típ phổ biến thành quy luật phổ quát.
+  CÁCH TRÁNH : Chọn lời hứa cảm xúc theo mô típ: công lý, tình yêu, trưởng thành, khám phá, sinh tồn, phá án, chữa lành.
+  CÁCH SỬA   : Gỡ cảnh phản công/twist thừa; thay cao trào bằng lựa chọn hoặc phát hiện xứng với mô típ.
+  KIỂM TRA   : Truyện đáp lại lý do người nghe chọn thể loại đó.
+  TRÁNH CỰC ĐOAN: Mô típ có thể pha trộn nếu các tuyến phối hợp tự nhiên.
+
+[AF34] HOOK HẤP DẪN NHƯNG KHÔNG ĐƯỢC THANH TOÁN
+  DẤU HIỆU   : Hook hứa chuyện trọng sinh thay đổi số phận, phần thân lạc sang mâu thuẫn không liên quan.
+  NGUYÊN NHÂN: Tối ưu câu đầu độc lập với tuyến chính và kết.
+  CÁCH TRÁNH : Lập “sổ lời hứa”: hook đặt ra câu hỏi gì, ở đâu trả lời, bằng hành động/hậu quả nào.
+  CÁCH SỬA   : Sửa hook theo cốt truyện thực hoặc xây lại tuyến chính; không vá bằng một câu kết cho có.
+  KIỂM TRA   : Lời hứa và kết nối qua chuỗi hành động liên tục.
+  TRÁNH CỰC ĐOAN: Hook có thể tiết lộ kết cục kiếp trước, không nhất thiết giấu thông tin để hấp dẫn.
+
+==============================================================================
+E. QUY TRÌNH AI, MODIFY VÀ KIỂM ĐỊNH
+==============================================================================
+
+[AF35] TỰ ĐÁNH GIÁ BẰNG KIẾN THỨC HẬU TRƯỜNG
+  DẤU HIỆU   : Người viết thấy nhân vật đã lên kế hoạch nên cho là hợp lý, nhưng người nghe chỉ thấy nhân vật thụ động.
+  NGUYÊN NHÂN: Người đánh giá biết outline và kết nên đọc thêm ý ngoài bản kể.
+  CÁCH TRÁNH : Tạo lượt đánh giá “đến đâu biết đến đó”; tách reviewer khỏi toàn bộ spoiler khi môi trường cho phép.
+  CÁCH SỬA   : Đọc từng chặng với chỉ thông tin đã tiết lộ; ghi mong đợi, chỗ rối, nguyên nhân mất hứng. Sửa cảnh trước khi lộ thông tin.
+  KIỂM TRA   : Lượt đánh giá không viện dẫn dữ kiện chưa được kể.
+  TRÁNH CỰC ĐOAN: Nếu cùng một AI làm cả hai vai, phải ghi rõ tính độc lập chưa được bảo đảm.
+
+[AF36] CHECKLIST ĐẠT NHƯNG SẢN PHẨM KHÔNG HẤP DẪN
+  DẤU HIỆU   : Truyện “có hook”, “có twist”, “có cao trào” mà cảm xúc vẫn phẳng và lời thoại gượng.
+  NGUYÊN NHÂN: Dùng có/không thay cho chất lượng tương tác và mức độ chuẩn bị.
+  CÁCH TRÁNH : Mỗi nguyên lý phải có: khi nào dùng, cách làm, chống lỗi, cách sửa, bằng chứng ở cảnh nào; kiểm thử trên truyện hoàn chỉnh.
+  CÁCH SỬA   : Không thêm checkbox đơn thuần; chẩn đoán lỗi gốc thuộc dàn ý, phát triển cảnh, văn phong hay TTS rồi sửa đúng lớp.
+  KIỂM TRA   : Sau sửa, đọc lại toàn mạch và so với bản trước bằng cùng bộ tiêu chí.
+  TRÁNH CỰC ĐOAN: Nhiều tiêu chí định tính cần người nghe đánh giá, không thể tự động chứng nhận.
+
+[AF37] CHIA TRUYỆN THEO CHẶNG NHƯNG QUÊN TRẠNG THÁI
+  DẤU HIỆU   : Nhân vật lặp quyết định, quên vật chứng, đổi tuổi và quan hệ giữa các phần.
+  NGUYÊN NHÂN: Viết nhiều lượt không duy trì STORY_STATE hữu ích.
+  CÁCH TRÁNH : Ghi bảng nhân vật, sự thật đã tiết lộ, tài nguyên, bí mật, timeline, xung đột mở và lời hứa cần trả.
+  CÁCH SỬA   : Rà nối cảnh, kiểm tra tiền đề phát sinh; viết lại các đoạn sai continuity trước khi biên tập câu chữ.
+  KIỂM TRA   : Không có mâu thuẫn giữa phần đầu và cuối do quên trạng thái.
+  TRÁNH CỰC ĐOAN: Tóm tắt trạng thái không thay thế việc kiểm tra văn bản gốc khi cần.
+
+[AF38] SỬA LỖI PHONG CÁCH NHƯNG PHÁ KHÓA MODIFY
+  DẤU HIỆU   : M00 chỉ được thay tên nhưng Agent tự thêm cảnh hoặc dời cao trào để truyện “hay hơn”.
+  NGUYÊN NHÂN: Đặt tiêu chuẩn sáng tác NEW cao hơn phạm vi được phép thay đổi nguồn.
+  CÁCH TRÁNH : Kiểm tra quyền nguồn, mã M00–M63 và sáu nhóm A–F trước mọi đề xuất sửa; giữ nguyên nhóm khóa.
+  CÁCH SỬA   : Nếu bản nguồn mắc lỗi mà khóa không cho phép sửa: ghi nhận lỗi ở QA, không âm thầm thay tình tiết; với M00 nguồn ngắn báo xung đột độ dài.
+  KIỂM TRA   : Mọi sửa chữa đều nằm trong phạm vi được phép và được ghi nhận.
+  TRÁNH CỰC ĐOAN: Không mặc nhiên coi đổi tên là tạo tác phẩm độc lập về bản quyền.
+
+[AF39] SAO CHÉP MÁY MÓC HOOK VÀ MÔ TÍP
+  DẤU HIỆU   : Nhiều truyện chỉ thay tên nhân vật, cùng xé giấy, lộ hợp đồng, họp công ty, công bố bí mật.
+  NGUYÊN NHÂN: Lấy ví dụ trong HOOK_LIBRARY như mẫu điền chỗ trống.
+  CÁCH TRÁNH : Đa dạng hóa cơ chế xung đột, loại lợi thế, lựa chọn, phản ứng đối thủ và hậu quả; ví dụ chỉ để hiểu cơ chế.
+  CÁCH SỬA   : So sánh bản đồ sự kiện bỏ tên riêng; nếu gần như trùng, thiết kế lại chuỗi nhân quả.
+  KIỂM TRA   : Các truyện vẫn khác biệt khi xóa tên, nghề và bối cảnh.
+  TRÁNH CỰC ĐOAN: Không tự tuyên bố đã kiểm tra trùng toàn kho nếu không có cơ sở dữ liệu.
+
+[AF40] NHẬN VƠ ĐÃ ĐẾM TỪ, ĐÃ NGHE TTS, ĐÃ TEST 10 LẦN
+  DẤU HIỆU   : Báo cáo “hoàn thành” dựa trên lời ước tính hoặc checklist, không có bản truyện thực, file âm thanh, nhật ký test.
+  NGUYÊN NHÂN: Đồng nhất tự đánh giá ngôn ngữ với phép đo có kiểm chứng.
+  CÁCH TRÁNH : Đặt tiêu chí nghiệm thu dựa trên tạo sản phẩm thực và công cụ đo; phân biệt kiểm tra tài liệu, mô phỏng và kiểm thử đầu-cuối.
+  CÁCH SỬA   : Đếm lại bằng chương trình; nếu chưa phát TTS thì ghi CHƯA KIỂM THỬ ÂM THANH; nếu chưa có 10 truyện hoàn chỉnh thì không tuyên bố đã test 10 lần sáng tác.
+  KIỂM TRA   : Báo cáo có bằng chứng, số từ thật, lỗi, bản sửa và trạng thái PASS/FAIL trung thực.
+  TRÁNH CỰC ĐOAN: Điểm tự chấm không chứng minh người nghe thực tế sẽ thích truyện.
+
+==============================================================================
+PHỤ LỤC A. PHÉP THỬ NHẬN DIỆN LỖI THEO CẤP ĐỘ
+==============================================================================
+
+A1. CẤP CÂU / LƯỢT THOẠI
+1) Đọc thành tiếng một lần: có nghe rõ chủ thể và hành động không?
+2) Có nhồi nhiều điều kiện, tên, con số cần giữ trong trí nhớ không?
+3) Câu thoại có mục đích giao tiếp thật hay chỉ thuật lại hồ sơ nhân vật?
+4) Câu văn có phụ thuộc dấu ngoặc, ký hiệu hoặc cách trình bày trên trang không?
+5) Nếu sửa cho dễ nghe, đã tránh biến toàn bộ văn thành câu cụt chưa?
+
+A2. CẤP ĐOẠN / CẢNH
+1) Trước và sau cảnh, điều gì thay đổi về mục tiêu / thông tin / quan hệ /
+   quyền lực / rủi ro / lựa chọn / nhận thức? Ghi thành một câu cụ thể.
+2) Xóa cảnh có làm mất đóng góp đáng kể không? Nếu không, cân nhắc cắt/gộp.
+3) Hai cảnh có thể đảo thứ tự mà không ảnh hưởng nhân quả không? Nếu có,
+   xem lại mối nối và chức năng; không mặc định là lỗi trong cấu trúc phi tuyến.
+4) Đang lặp xung đột hay tạo hậu quả mới?
+5) Cảnh có chứa thông tin mà người nghe chưa được cung cấp không?
+6) Cảnh yên tĩnh đang thay đổi điều gì, hay chỉ đệm dung lượng?
+
+A3. CẤP TOÀN TRUYỆN
+1) Lời hứa cảm xúc từ hook có được xử lý trong kết không?
+2) Nhân vật có năng lực, giới hạn, lựa chọn và cái giá rõ ràng không?
+3) Mỗi vòng xung đột có kế thừa hậu quả từ vòng trước không?
+4) Đòn quyết định xuất hiện ở thời điểm xứng đáng, có chuẩn bị nhân quả không?
+5) Bí mật được kiểm soát mà không gây hoang mang về mục tiêu chính không?
+6) Các tuyến phụ hỗ trợ hoặc cố ý đối trọng tuyến chính ra sao?
+7) Kết có đủ hậu quả nhưng dừng đúng lúc không?
+8) Nếu xóa tên người và bối cảnh, cấu trúc có quá giống truyện khác không?
+9) Có truyện hoàn chỉnh >8.000 từ thực sự được đếm chưa?
+10) Đã nghe thử bằng TTS mục tiêu hoặc ghi rõ chưa thử chưa?
+
+==============================================================================
+PHỤ LỤC B. VÍ DỤ SỬA 6 LỖI ĐIỂN HÌNH (VÍ DỤ TỰ TẠO)
+==============================================================================
+
+B1. Lặp cảm xúc
+SAI: “Tôi không tin nổi. Bà quá bất công. Tôi đau lòng vì sự bất công đó.
+      Tôi không ngờ mình lại bị đối xử bất công như thế.”
+SỬA: “Mẹ chồng đẩy tờ giấy sang trước mặt tôi. Ở ô người nhận tài sản,
+       bà đã điền sẵn tên em chồng. Tôi quay sang chồng. Anh không ngẩng đầu.”
+VÌ SAO: Chuyển lời than thành sự kiện, bằng chứng và thay đổi nhận thức.
+
+B2. Phản công quá sớm
+SAI: “Bà vừa đòi công ty, tôi đưa ngay bản hợp đồng chứng minh mình sở hữu
+      tất cả. Mọi người cứng họng.” Sau đó kéo dài 6.000 từ bằng cãi vã mới.
+SỬA CẤU TRÚC: Bà gây sức ép → nhân vật từ chối và mất một quyền lợi nhỏ →
+      tìm nguồn gốc quyền sở hữu → phát hiện đồng minh có điều kiện → đối thủ
+      ra đòn mới → thử chiến thuật và trả giá → cao trào dùng bằng chứng đã
+      chuẩn bị để đổi cán cân quyền lực → hậu quả cho gia đình/công ty.
+VÌ SAO: Không chỉ dời màn thắng xuống cuối; xây điều kiện đạt thắng lợi.
+
+B3. Câu khó nghe
+SAI: “Sau khi vị cổ đông sở hữu mười bảy phần trăm cổ phần thông báo rằng
+      thỏa thuận đã được ký từ ba năm trước với cha tôi, giám đốc tài chính...”
+SỬA: “Trong cuộc họp, một cổ đông đứng lên. Ông nắm mười bảy phần trăm
+      cổ phần. Ông đặt lên bàn thỏa thuận đã ký với cha tôi ba năm trước.
+      Giám đốc tài chính vừa đọc trang đầu đã phản đối.”
+VÌ SAO: Thông tin được đưa theo chuỗi dễ xử lý, không nhất thiết câu nào cũng ngắn.
+
+B4. Đại từ mơ hồ
+SAI: “Anh bảo anh ấy gọi cô ấy, nhưng cô nói anh đừng làm vậy.”
+SỬA: “Trương Hạo định gọi cho Tiểu Vân. Lý Minh ngăn lại:
+      ‘Đừng báo chuyện này cho cô ấy vội.’”
+VÌ SAO: Phân biệt người nói và người được nhắc tới mà không lặp tên liên tục.
+
+B5. Cãi nhau lặp
+SAI: Ba lần gặp liên tiếp mẹ chồng yêu cầu nhượng nhà; mỗi lần cô đều từ chối.
+SỬA: Lần 1 yêu cầu → lần 2 mẹ chồng tác động lên chồng khiến nhân vật
+      mất chỗ dựa → lần 3 gia đình đưa hạn chót, buộc lựa chọn bảo vệ quyền
+      lợi tại công ty hay giữ quan hệ vợ chồng.
+VÌ SAO: Mỗi lần đối đầu thay đổi điều kiện ra quyết định.
+
+B6. Cliffhanger giả
+SAI: “Tôi mở cửa. Người trước mặt khiến tôi chết lặng.” → người giao hàng
+      vô can xuất hiện.
+SỬA: “Tôi mở cửa thì thấy kế toán trưởng. Chị đặt phong bì trước mặt tôi:
+      ‘Chữ ký của chị có trên một hợp đồng mà chị chưa từng được xem.’”
+VÌ SAO: Một bí ẩn có vật chứng, nguy cơ và câu hỏi thật.
+
+==============================================================================
+PHỤ LỤC C. QUY TRÌNH KHẮC PHỤC BẢN THẢO ĐÃ MẮC LỖI
+==============================================================================
+
+BƯỚC 0 — KHÓA PHẠM VI
+Xác định NEW/MODIFY, quyền sử dụng, mã M00–M63, nhóm A–F có thể sửa.
+Nếu không được phép sửa một loại lỗi, ghi nhận thay vì tự ý phá khóa.
+
+BƯỚC 1 — CHẨN ĐOÁN GỐC (KHÔNG VỘI SỬA VĂN)
+Đọc toàn truyện, lập bản đồ từng cảnh: mục tiêu, thông tin mới, thay đổi,
+rủi ro, ai biết gì, vị trí trong đường cảm xúc. Gắn mã AF tương ứng.
+
+BƯỚC 2 — PHÂN LOẠI MỨC ĐỘ
+- NGHIÊM TRỌNG: phá logic, phá khóa MODIFY, xung đột chính bị bỏ,
+  cao trào vô căn cứ, sai ngôi kể gây hiểu sai, thiếu toàn văn/không đủ số từ.
+- ĐÁNG KỂ: nhiều cảnh lặp, thoại gượng, tên/đại từ rối, nhịp sai,
+  bí ẩn biến thành hoang mang, phản diện thiếu nhất quán.
+- NHẸ: câu dài cục bộ, chi tiết thừa, từ ngữ khó đọc, cách ngắt nghỉ.
+Lỗi nghiêm trọng phải sửa trước; không dùng điểm trung bình bù lỗi.
+
+BƯỚC 3 — SỬA ĐÚNG CẤP
+- Lỗi nhân quả/cao trào: sửa DÀN Ý và chuỗi cảnh trước.
+- Lỗi tiến triển/lặp: gộp, xóa, thay chức năng CẢNH.
+- Lỗi cảm xúc/quan hệ: sửa ĐỘNG CƠ, lựa chọn, hậu quả, không chỉ thêm tính từ.
+- Lỗi nghe hiểu: sửa CÂU, LỜI THOẠI, TÍN HIỆU CHUYỂN CẢNH.
+- Lỗi kỹ thuật TTS: làm sạch đầu vào và thử GIỌNG THẬT.
+
+BƯỚC 4 — KIỂM TRA HỆ QUẢ DÂY CHUYỀN
+Sau khi sửa một cảnh, cập nhật trạng thái về vật chứng, kiến thức nhân vật,
+quan hệ, timeline, mục tiêu, tuổi tác, năng lực và lời hứa cảm xúc.
+
+BƯỚC 5 — NGHE THỬ THỰC TẾ
+Chọn ít nhất các đoạn: 3–4 phút đầu, một cuộc đối thoại đông người,
+một đoạn hồi tưởng/chuyển cảnh, phần dẫn đến cao trào và cao trào.
+Nếu chưa thể nghe TTS thì chỉ được ghi “kiểm tra văn bản cho TTS”, không
+đánh dấu đã kiểm thử âm thanh.
+
+BƯỚC 6 — ĐO VÀ LẬP BÁO CÁO
+Đếm số từ phần truyện (không kể tiêu đề, báo cáo). Ghi lỗi AF, vị trí,
+cách sửa, trạng thái sửa, hạn chế chưa giải quyết, bản trước/sau.
+Không tự chứng nhận mức độ hấp dẫn với người nghe khi chưa khảo sát.
+
+==============================================================================
+PHỤ LỤC D. CÁCH PHÂN BỔ VÀO ĐÚNG BỐN TÀI LIỆU AGENT
+==============================================================================
+
+AGENT_SETUP
+- Cổng duyệt dàn ý trước khi viết; thiết kế ngược cao trào; bản đồ cảm xúc;
+  bảng trạng thái từng cảnh; sửa theo cấp; người đánh giá giới hạn thông tin;
+  phân biệt test tài liệu và test truyện hoàn chỉnh.
+- Nhóm liên quan: AF01, AF04–AF10, AF15, AF35–AF40.
+
+STORY_RULES
+- Những lỗi bắt buộc không được xảy ra và thứ tự ưu tiên; cơ chế xử lý
+  mâu thuẫn giữa quy tắc; quyền MODIFY; nhân quả, bằng chứng, nhân vật;
+  điều kiện số từ và trung thực về QA.
+- Nhóm liên quan: AF02–AF19, AF31–AF40.
+
+STORY_STYLE
+- Cách biểu đạt cho tai: nhịp, câu, thoại, đại từ, tên, chuyển cảnh,
+  miêu tả có chức năng, khoảng lặng, chuẩn hóa TTS.
+- Nhóm liên quan: AF14, AF16, AF20–AF30, AF31.
+
+HOOK_LIBRARY
+- Các hook đúng lời hứa, cliffhanger thật, ví dụ tốt/sai, tránh mẫu hóa,
+  không ép phản công quyết định vào câu mở đầu.
+- Nhóm liên quan: AF04, AF17–AF18, AF33–AF34, AF39.
+
+LƯU Ý: Việc một mã xuất hiện ở nhiều tài liệu là phối hợp chức năng, không
+phải sao chép nguyên đoạn thành nhiều mệnh lệnh mâu thuẫn. Một nguyên lý
+cần có nơi QUY ĐỊNH, nơi HƯỚNG DẪN THỰC THI và nơi KIỂM ĐỊNH rõ ràng.
+
+==============================================================================
+PHỤ LỤC E. BỘ TEST THỰC TẾ ĐỀ NGHỊ (CHƯA THỰC HIỆN)
+==============================================================================
+
+T01 — NEW trọng sinh: có tri thức kiếp trước nhưng không giải quyết quá dễ.
+T02 — NEW gia đình/công ty: tích lũy bất công và phản công ở cao trào.
+T03 — NEW điền văn: hấp dẫn bằng lao động/quan hệ, không ép twist/vả mặt.
+T04 — NEW hôn nhân: hiểu lầm có cơ sở, không kéo dài nhờ im lặng vô lý.
+T05 — NEW phá án: giữ bí ẩn nhưng người nghe hiểu mục tiêu hiện tại.
+T06 — NEW hào môn: phản diện nhất quán, bằng chứng có nguồn gốc.
+T07 — MODIFY M00 với nguồn được phép và đủ từ: đổi tên, không phá nội dung.
+T08 — MODIFY chọn nhóm A–F: chỉ đổi nhóm bật, rà tác động gián tiếp.
+T09 — MODIFY M63 với quyền phù hợp: mạch mới độc lập, tên nhất quán.
+T10 — NEW nhiều nhân vật: nghe TTS nhận diện được người nói, ngôi kể, thời gian.
+
+YÊU CẦU VỚI MỖI TEST
+- Có đầu vào, bản truyện hoàn chỉnh >8.000 từ (trừ xung đột M00 ghi rõ),
+  kết quả đếm từ thật, nhật ký lỗi AF, bản sửa và kết luận.
+- Chấm riêng cốt truyện, cảm xúc, khả năng nghe; TTS chỉ được xác nhận
+  khi đã phát âm thanh và kiểm tra. Nếu thiếu điều kiện, ghi chưa thử.
+- Đổi kết quả từ “kiểm tra quy tắc” thành “kiểm thử đầu-cuối” là sai báo cáo.
+
+==============================================================================
+KẾT LUẬN BIÊN TẬP
+==============================================================================
+
+1) Mỗi phần truyện phải có lý do tồn tại, nhưng không phải phần nào cũng
+   cần một biến cố lớn.
+2) Mỗi cảm xúc mạnh phải có cơ sở, nhưng không cần giải thích hết cho người nghe.
+3) Phản kháng có thể sớm; giải quyết xung đột trung tâm phải xứng đáng.
+4) Bí ẩn phải khiến người nghe tò mò, không khiến họ lạc phương hướng.
+5) Truyện audio phải được hiểu qua tai, không phụ thuộc nhìn bố cục văn bản.
+6) Biết truyện hay là gì khác với biết cách sáng tác: phải có thao tác
+   phòng lỗi, sửa lỗi, kiểm tra lỗi trên SẢN PHẨM THẬT.
+7) Cấm gọi bộ tài liệu “đã test 10 lần sáng tác” khi chưa có 10 lượt viết và
+   đánh giá truyện thực tế cùng bằng chứng đo lường.
+
+==============================================================================
+PHỤ LỤC F. ĐỐI CHIẾU 13 LỖI CHÍNH XÁC THEO DANH SÁCH YÊU CẦU
+==============================================================================
+
+PHÂN LOẠI MỨC ĐỘ BAO PHỦ CỦA BẢN V1.0
+- ĐÃ RÕ: vấn đề được mô tả trực tiếp và có cách nhận biết, tránh, sửa.
+- RẢI RÁC: có các yếu tố liên quan nhưng chưa gọi đúng tên vấn đề,
+  chưa có phép kiểm tra hoặc thao tác sửa độc lập.
+- CHƯA THÀNH PHƯƠNG PHÁP: chỉ có gợi ý chung, chưa thể giao cho Agent thực thi.
+Các mục ở đây BỔ SUNG CHẨN ĐOÁN, không thay thế AF01–AF40.
+
+BẢNG ĐỐI CHIẾU NGUỒN V1.0
+01. Mở đầu chậm             | RẢI RÁC | AF18, AF34        | Thêm F01.
+02. Giữa truyện võng        | RẢI RÁC | AF06, AF07, AF08 | Thêm F02.
+03. Cảnh thừa               | ĐÃ RÕ   | AF01 và Phụ lục A| Thêm phép phân loại F03.
+04. Ức chế lặp              | RẢI RÁC | AF03, AF05, AF15 | Thêm F04.
+05. Phần thưởng nhạt        | RẢI RÁC | AF09, AF10, AF34 | Thêm F05.
+06. Chuỗi 'và rồi'          | RẢI RÁC | AF06, AF09       | Thêm phép thử F06.
+07. Phản diện reset         | RẢI RÁC | AF08, AF12       | Thêm bảng trạng thái F07.
+08. Người nghe chờ nhân vật | RẢI RÁC | AF05, AF15       | Thêm F08.
+09. Trì hoãn rỗng           | RẢI RÁC | AF05, AF19       | Thêm F09.
+10. Giải thích thừa         | ĐÃ RÕ   | AF02, AF23       | Thêm F10.
+11. Thoại vòng vo           | RẢI RÁC | AF22, AF23       | Thêm F11.
+12. Kết nhiều lần           | RẢI RÁC | AF10             | Thêm F12.
+13. Đệm chữ                 | ĐÃ RÕ   | AF01             | Thêm F13.
+
+[F01] MỞ ĐẦU CHẬM
+DẤU HIỆU: Nhiều câu mở đầu dành cho hoàn cảnh, tiểu sử, họ hàng, phong cảnh
+trước khi người nghe nhận ra vấn đề đang xảy ra và lý do nên tiếp tục nghe.
+TRÁNH: Đưa sớm một biến cố, bất công, quyết định hoặc nghịch lý cụ thể;
+cho người nghe nhận ra ai đang gặp vấn đề gì và nguy cơ/hứa hẹn nào đang mở.
+SỬA: Khoanh điểm đầu tiên có sức hút thực sự; thử đưa nó lên trước.
+Chuyển tiểu sử vào những thời điểm nó tác động đến lựa chọn. Không nhất thiết
+bắt đầu bằng tiếng hét, chết chóc hay phản công; mở bằng căng thẳng có thật.
+KIỂM: Sau phần mở đầu ngắn, người nghe nói được: ai, chuyện gì đáng quan tâm,
+vì sao chưa thể bỏ qua? Kiểm bằng nghe thử, không suy từ chữ 'hook' trong file.
+
+[F02] GIỮA TRUYỆN VÕNG
+DẤU HIỆU: Mở đầu và cao trào khá tốt, nhưng phần giữa chỉ duy trì bất công,
+thêm người tới mắng hoặc kể các biến cố có thể đổi chỗ cho nhau.
+TRÁNH: Thiết kế điểm chuyển giữa truyện: phát hiện làm đổi mục tiêu/chiến lược,
+cái giá lớn hơn, liên minh đổi phía, hoặc hậu quả biến cuộc chơi thành chuyện khác.
+SỬA: Tóm từng cảnh giữa bằng 'vì A nên B'; gộp vòng lặp; thay bằng nút rẽ
+không thể quay lại trạng thái trước. Cài một thắng nhỏ dẫn tới phản đòn thực.
+KIỂM: So hai đầu phần giữa: nhân vật biết gì khác, mất/gain gì, mục tiêu còn
+giống không, đối phương đã học được điều gì? Nếu gần như bằng 0, phần giữa võng.
+
+[F03] CẢNH THỪA
+DẤU HIỆU: Cảnh có văn hay nhưng bỏ đi không ảnh hưởng thông tin, lựa chọn,
+quan hệ, căng thẳng có ý nghĩa, giai điệu cảm xúc hoặc chuẩn bị hậu quả.
+TRÁNH: Trước khi viết, ghi chức năng duy nhất/quan trọng nhất của cảnh.
+SỬA: Xóa nếu vô dụng; gộp nếu trùng chức năng; chuyển thành cảnh quan hệ có
+chuyển biến hoặc thêm cái giá nếu bản thân cảnh đáng giữ. Không gắn một biến
+cố giả vào mọi cảnh để 'hợp thức hóa' chúng.
+KIỂM: Phép thử bỏ cảnh + bản đồ trạng thái trước/sau + trải nghiệm người nghe.
+NGOẠI LỆ: Cảnh nghỉ có nhịp, thân mật hoặc mất mát thật vẫn có chức năng.
+
+[F04] ỨC CHẾ LẶP
+DẤU HIỆU: Người nghe đã ghét hành vi bất công, nhưng Agent tái diễn cùng mức
+mà không có manh mối, phản ứng mới, thay đổi nguy cơ hoặc tiến trình bảo vệ mình.
+TRÁNH: Mỗi lần đối phương lấn tới phải đổi áp lực; đồng thời cho nhân vật
+chính một bước hiểu biết, chống đỡ, điều chỉnh kế hoạch hoặc lựa chọn có hậu quả.
+SỬA: Gộp các màn làm nhục gần giống; đổi màn sau thành quyết định gây mất mát,
+một bước phản kháng nhỏ, hay hậu quả mới. Không thêm đau khổ vô hạn để câu view.
+KIỂM: Sau 2 lần bất công liên tiếp, người nghe đã có thông tin/hi vọng/đòn bẩy
+mới nào, hay chỉ đang được yêu cầu tiếp tục chịu đựng thay nhân vật?
+
+[F05] PHẦN THƯỞNG NHẠT
+DẤU HIỆU: Sau 7.000 từ chờ đợi, phản diện chỉ 'cứng họng' hoặc bỏ đi;
+nhân vật chính tuyên bố chiến thắng mà hậu quả không thay đổi số phận ai.
+TRÁNH: Xác định phần thưởng đã hứa là gì (công lý, lấy lại quyền, được tin,
+tự do, hàn gắn...); gắn trả giá và hậu quả đúng loại phần thưởng ấy.
+SỬA: Không tự tăng hình phạt vô lý. Tạo cảnh chứng kiến quyền lực thực đổi,
+người liên quan phải ra quyết định mới, hoặc nhân vật chính đạt lựa chọn từng bị
+cướp mất. Giải quyết mức cảm xúc, không chỉ mức giấy tờ.
+KIỂM: 'Sau cao trào, điều gì chắc chắn khác trước?' và 'điều người nghe mong
+đợi đã được thanh toán bằng hành động/hậu quả, chứ không chỉ lời nói chưa?'
+
+[F06] CHUỖI 'VÀ RỒI' (THIẾU NHÂN QUẢ)
+DẤU HIỆU: 'Và rồi X xảy ra, và rồi Y xuất hiện, và rồi Z giúp đỡ'; cảnh có
+thể hoán đổi vì không có quan hệ gây nên/đối kháng giữa chúng.
+TRÁNH: Với các nút chính, kiểm 'VÌ THẾ' hoặc 'NHƯNG': Vì X nên Y,
+hoặc nhân vật muốn X NHƯNG gặp Y; không bắt mọi câu văn phải viết từ nối ấy.
+SỬA: Thêm nguyên nhân hoặc hậu quả tạo ra cảnh kế; nếu không tìm được, xóa,
+gộp hoặc đặt lại trật tự. Không tạo nối kết giả bằng câu 'điều đó khiến...'
+trong khi thực chất hai việc không liên quan.
+KIỂM: Viết chuỗi 6 nút quan trọng dưới dạng 'muốn/nhưng/vì thế';
+chỉ cần 1–2 nút kiểu 'và rồi' không có chức năng là phải xem lại.
+
+[F07] PHẢN DIỆN RESET
+DẤU HIỆU: Sau lần thua, phản diện quay lại với quyền thế và nguồn lực như cũ,
+không mất tiền, uy tín, bằng chứng, đồng minh; tiếp tục cùng kế hoạch cũ.
+TRÁNH: Theo dõi trạng thái đối phương: điều họ biết, còn gì trong tay, ai còn
+tin họ, giới hạn pháp lý/xã hội, nguồn lực chưa dùng, mục tiêu có thay đổi không.
+SỬA: Cho phản diện phản công bằng NGUỒN LỰC CÒN LẠI, đối phó với hậu quả
+thất bại trước. Nếu họ hồi phục, chứng minh bằng cảnh có chi phí và nguyên nhân.
+KIỂM: So bảng trạng thái phản diện trước/sau mỗi thất bại;
+không thể khởi động một vòng đối đầu giống hệt từ điểm xuất phát cũ.
+
+[F08] NGƯỜI NGHE PHẢI CHỜ NHÂN VẬT CHÍNH HÀNH ĐỘNG
+DẤU HIỆU: Người nghe đã biết điều sai và có thể thấy một phương án khả thi,
+nhưng nhân vật chính chỉ ngồi nghe, trì hoãn, lặp lời thề hoặc chịu đựng.
+TRÁNH: Cho nhân vật chủ động sớm ở phạm vi khả thi: xác minh, từ chối một
+đề nghị, đặt giới hạn, lùi có chủ ý, bảo vệ một người, tìm chứng cứ.
+SỬA: Nếu chưa hành động, nêu trở ngại cụ thể (chưa đủ quyền, rủi ro làm hại
+người khác, chưa xác nhận thông tin); cho nhân vật thử một bước và thấy hệ quả.
+KIỂM: 'Nhân vật đang chọn gì ngay BÂY GIỜ?' Trì hoãn cú thắng lớn không có
+nghĩa trì hoãn mọi hành động. Không biến nhân vật thành bù nhìn.
+
+[F09] TRÌ HOÃN RỖNG
+DẤU HIỆU: Nhân vật liên tục 'đợi thời cơ', 'chờ đủ bằng chứng' nhưng không
+có nhiệm vụ, thay đổi hoặc chi phí thực; cao trào bị dời lùi chỉ để đủ từ.
+TRÁNH: Mọi khoảng đợi phải có quá trình: kiểm chứng, chuẩn bị, mắc sai lầm,
+quan hệ đổi, thời hạn đến gần, đối thủ phát hiện, hoặc cơ hội khép lại.
+SỬA: Rút ngắn thời gian kể; gắn một quyết định trong lúc chờ. Nếu chẳng có
+gì đáng kể, bỏ qua bằng câu chuyển thời gian thay vì tạo một cảnh dài.
+KIỂM: Sau cảnh chờ, cơ hội/khả năng/hiểu biết/chi phí có khác không?
+Nếu không, đó là trì hoãn rỗng.
+
+[F10] GIẢI THÍCH THỪA
+DẤU HIỆU: Sau khi nhân vật quay lưng, người kể nhắc 'điều ấy chứng tỏ cô ấy
+rất thất vọng'; sau khi chứng cứ rõ, lại giải thích tất cả một lần nữa.
+TRÁNH: Tách thông tin cần nói rõ (ai/làm gì/tại sao ở mức thiết yếu)
+khỏi diễn giải mà hành vi và bối cảnh đã đủ cho thấy.
+SỬA: Xóa câu thuyết minh lặp, giữ hành động. Nếu hành động thực sự tối nghĩa,
+thêm một tín hiệu cụ thể thay vì một đoạn tổng kết tâm lý.
+KIỂM: Nghe một lần không nhìn chữ; bỏ lời giải thích mà hiểu đúng thì bỏ.
+NGOẠI LỆ: Nhắc mốc thời gian/quan hệ sau khoảng xa có thể cần cho audio.
+
+[F11] THOẠI VÒNG VO
+DẤU HIỆU: Hai nhân vật lặp lại 'Anh có biết anh sai không?', 'Em không hiểu',
+'Anh hãy nghe anh giải thích' nhiều lượt mà không thêm yêu cầu, mặc cả hay thông tin.
+TRÁNH: Mỗi lượt thoại phải làm ít nhất một việc: đòi hỏi, từ chối, tiết lộ,
+né tránh có lý do, thăm dò, thay đổi chiến thuật hoặc làm lệch quyền lực.
+SỬA: Giữ lượt thoại làm thay đổi hướng đối thoại; cắt/gộp những câu lặp;
+thay một lời giải thích bằng hành động hoặc câu hỏi buộc người khác quyết định.
+KIỂM: Sau 4–6 lượt thoại, đã có gì mới? Nếu vẫn nguyên câu hỏi đầu, cảnh
+đang vòng vo, trừ trường hợp cố ý đối chất mà mỗi lần lặp làm tăng áp lực.
+
+[F12] KẾT NHIỀU LẦN
+DẤU HIỆU: Cao trào xong, nhân vật tuyên bố kết thúc, rồi hồi tưởng, rồi
+phản diện nhận phạt, rồi nhân vật lại tuyên bố kết thúc, rồi một biến cố nữa...
+TRÁNH: Thiết kế một đoạn hạ màn với nhiệm vụ rõ: hệ quả bên ngoài,
+lựa chọn/quan hệ cuối và dư âm; không viết 3 đoạn 'đúc kết' cùng một ý.
+SỬA: Chọn hình ảnh/hành động kết có lực nhất. Dồn thông tin hậu quả cần
+thiết trước nó; bỏ những lần tổng kết trùng chức năng hoặc cao trào giả cuối.
+KIỂM: Đánh dấu từng điểm mà người nghe nghĩ 'truyện xong rồi'; nếu có nhiều
+điểm mà không có tác dụng chủ ý, cần thu gọn.
+
+[F13] ĐỆM CHỮ
+DẤU HIỆU: Thêm thời tiết, đường đi, đồ đạc, tiểu sử, trích suy nghĩ,
+cuộc họp lặp lại hoặc lời dẫn để tăng số từ nhưng không thêm chức năng.
+TRÁNH: Không phân bổ số từ như quota bắt buộc cho mỗi cảnh; đạt độ dài bằng
+thiết kế chất liệu có giá trị, không bằng tăng chiều dài câu.
+SỬA: Cắt chữ đệm; nếu sau cắt dưới 8.001 từ thì KHÔNG bù ngay bằng miêu tả.
+Quay lại dàn ý và triển khai 4 cơ chế hợp lệ ở Phụ lục G, nếu cấu hình NEW
+hoặc MODIFY được phép; M00 không được vượt khóa để đủ từ.
+KIỂM: Gắn chức năng cho từng đoạn mở rộng; đếm từ trên truyện hoàn chỉnh,
+không gộp metadata/QA vào số từ.
+
+
+==============================================================================
+PHỤ LỤC G. BỐN CƠ CHẾ MỞ RỘNG TRUYỆN ĐÚNG CÁCH, KHÔNG ĐỆM CHỮ
+==============================================================================
+
+QUY TẮC GỐC: MỞ RỘNG = TĂNG HÀM LƯỢNG TRUYỆN, KHÔNG PHẢI TĂNG DIỆN TÍCH CHỮ.
+Một cảnh mới chỉ nên tồn tại khi tạo thêm CÁI GIÁ, PHẢN ĐÒN, PHẢN ỨNG MANG
+THÔNG TIN MỚI, hoặc THAY ĐỔI QUAN HỆ; nó cũng có thể phục vụ hơn một chức năng.
+Không tự thêm cả bốn vào mọi truyện. Chọn theo điểm yếu dàn ý thực tế.
+Mọi mở rộng phải có điều kiện tiên quyết và hậu quả; nếu chỉ đổi lời diễn đạt
+hoặc diễn lại một cảnh cũ, không được gọi là mở rộng đúng.
+
+[G1] THÊM CÁI GIÁ — CHIẾN THẮNG PHẢI ĐÁNH ĐỔI
+Định nghĩa: Biến một thắng lợi dễ dãi thành một lựa chọn khó, nơi nhân vật
+đạt được điều này nhưng đánh mất, đặt cược hoặc phải từ bỏ điều khác có giá trị.
+Không phải cứ thêm đau khổ/bệnh tật/tai nạn là tạo cái giá hợp lý.
+Cách thực hiện:
+  1. Chọn thắng lợi đang quá dễ (ví dụ bảo toàn cổ phần và danh tiếng).
+  2. Xác định thứ nhân vật thực sự quý trọng có thể bị ảnh hưởng:
+     sự tin tưởng, bí mật của người thân, đồng minh, thời gian, tài sản, trách nhiệm.
+  3. Tạo quyết định trong khả năng nhân vật, không chỉ tai họa áp từ ngoài.
+  4. Viết cảnh lựa chọn + hành động + hậu quả tiếp diễn.
+  5. Đảm bảo cái giá trở thành một biến số trong các cảnh sau.
+Ví dụ SAI: Cô đưa giấy sở hữu. Hội đồng quản trị công nhận ngay. Cô thắng.
+Ví dụ SỬA: Cô có chứng cứ bảo vệ quyền sở hữu, nhưng công khai chứng cứ đồng
+nghĩa thừa nhận mình đã để cha ký một thỏa thuận đầy rủi ro. Muốn giữ công ty,
+cô phải chịu trách nhiệm giải thích với nhân viên và chấp nhận mất sự tin tưởng
+của một đồng minh. Cảnh công khai và cảnh đối mặt đồng minh đều có chức năng.
+Tiêu chí: Nếu bỏ cảnh đánh đổi, thắng lợi có đổi tính chất hoặc hậu quả không?
+Nếu không, cái giá được thêm vào chỉ để tô bi kịch.
+
+[G2] THÊM PHẢN ĐÒN — PHẢN DIỆN TẬN DỤNG NGUỒN LỰC CÒN LẠI
+Định nghĩa: Đối phương KHÔNG reset sau thua, mà thích nghi với thất bại,
+sử dụng nguồn lực và thông tin còn lại để tạo một vòng đối đầu có nhân quả.
+Cách thực hiện:
+  1. Ghi rõ đối thủ vừa mất gì (quyền biểu quyết, bí mật, uy tín, tài khoản...).
+  2. Liệt kê thứ họ vẫn có và biết; loại trừ thứ đã mất nếu chưa khôi phục.
+  3. Chọn hành động phù hợp mục tiêu, khả năng và mức rủi ro đối thủ chịu.
+  4. Tạo phản ứng nhân vật chính: phòng thủ/thỏa hiệp/đổi chiến thuật/trả giá.
+  5. Ghi cập nhật trạng thái cả hai sau vòng này; nó không được trở về điểm cũ.
+Ví dụ SAI: Mẹ chồng thua kiện sở hữu, hôm sau quay lại tự xưng chủ sở hữu
+và tiếp tục ra lệnh cho công ty như chưa có gì xảy ra.
+Ví dụ SỬA: Sau khi không thể đòi quyền sở hữu, bà nhờ người em chồng đang quản
+lý đầu mối phân phối rút khách hàng. Nhân vật chính giữ được công ty nhưng phải
+giải bài toán giao hàng và giữ việc cho nhân viên. Phản đòn dựa trên nguồn lực
+còn lại; phải thiết lập trước rằng em chồng có quyền/quan hệ phân phối đó.
+Tiêu chí: Đối thủ có lý do thực và nguồn lực hợp lệ? Vòng mới khác vòng cũ
+về bản chất hoặc hậu quả? Đừng kéo phản diện sống sót chỉ để đủ từ.
+
+[G3] THÊM PHẢN ỨNG RIÊNG — MỖI NHÂN VẬT HÉ LỘ ĐIỀU MỚI
+Định nghĩa: Sau một biến cố chung, không chỉ kể nhân vật chính phản ứng.
+Chọn những người liên quan có thông tin, động cơ, quyền lợi khác nhau;
+mỗi phản ứng phải hé lộ điều mới, đổi quan hệ hoặc củng cố xung đột
+bằng bằng chứng/hành động mới, không chỉ diễn đạt nhiều lần 'ai cũng sốc'.
+Cách thực hiện:
+  1. Xác định sự kiện lớn mà tối thiểu hai nhân vật bị ảnh hưởng khác nhau.
+  2. Với từng nhân vật, ghi: họ BIẾT gì, MUỐN gì, SỢ gì và CÓ THỂ làm gì.
+  3. Chọn 1–3 phản ứng có tác dụng khác biệt; không cần bao phủ toàn bộ nhân vật.
+  4. Mỗi phản ứng phải thay đổi dữ kiện, mối quan hệ, hoặc khả năng hành động.
+  5. Giữ điểm nhìn/ngôi kể nhất quán, nhất là truyện ngôi 'tôi'.
+Ví dụ SAI: Sau quyết định rút vốn, chồng ngỡ ngàng, em chồng ngỡ ngàng,
+mẹ chồng ngỡ ngàng, nhân viên ngỡ ngàng. Bốn đoạn đều nói 'sốc'.
+Ví dụ SỬA: Chồng lần đầu hỏi khoản nợ cũ vì anh từng ký bảo lãnh; kế toán
+trưởng im lặng rồi giao bảng công nợ có chữ ký chưa ai kiểm tra; em chồng
+bí mật gọi cho nhà cung cấp để giữ nguồn hàng. Mỗi phản ứng tạo một áp lực/
+thông tin/hành động khác. Chỉ giữ phản ứng phục vụ tiến triển.
+Tiêu chí: Xóa một phản ứng có mất một thông tin/động lực đáng kể không?
+Nếu không, gộp vào một câu tổng quát. Không tự chuyển POV chỉ để biết suy nghĩ
+của người khác; thể hiện qua lời nói/hành động mà nhân vật kể chuyện chứng kiến.
+
+[G4] THÊM CẢNH QUAN HỆ — CẢNH NGHỈ CÓ CHỨC NĂNG
+Định nghĩa: Giữa hai cao điểm, tạo một cảnh tương tác làm mối quan hệ
+được thử thách, đổi độ tin cậy, rạn nứt, hàn gắn hoặc buộc lựa chọn.
+Không phải cảnh uống trà/chăm sóc vết thương nào cũng tự nhiên có giá trị.
+Cách thực hiện:
+  1. Xác định mối quan hệ nào đang chịu hậu quả của xung đột.
+  2. Xác định trạng thái quan hệ TRƯỚC cảnh (nghi kỵ, xa cách, còn tin...).
+  3. Chọn một việc nhỏ cụ thể để đặt hai người vào tình huống phải phản ứng.
+  4. Dùng lời thoại/hành động bộc lộ điều họ chưa dám nói hoặc khác kỳ vọng.
+  5. Xác định trạng thái SAU cảnh và ảnh hưởng tới quyết định kế tiếp.
+Ví dụ SAI: Sau cuộc họp căng thẳng, vợ chồng ăn cơm, cùng nhớ chuyện xưa
+trong hai trang. Hết cảnh, quan hệ vẫn như cũ.
+Ví dụ SỬA: Chồng lặng lẽ đưa vợ chìa khóa kho hàng nhưng không xin lỗi.
+Cô hỏi anh đã biết kế hoạch của mẹ từ bao giờ. Anh không trả lời ngay.
+Cuối cùng, anh thú nhận đã biết chuyện chuyển khách hàng nhưng tưởng chỉ để
+ép cô nhượng bộ. Cô nhận chìa khóa để bảo vệ lô hàng, nhưng lần đầu không cho
+anh tiếp cận hồ sơ công ty. Cảnh chậm, song quan hệ và chiến thuật đều đổi.
+Tiêu chí: Nếu không có cảnh, quyết định/tình cảm ở phần sau có còn rõ và đáng
+tin không? Nếu có thể bỏ mà không mất gì, cảnh cần sửa hoặc cắt.
+
+[G5] CHỌN CƠ CHẾ ĐÚNG THAY VÌ NHỒI CẢ BỐN
+- Truyện THẮNG QUÁ DỄ             → ưu tiên THÊM CÁI GIÁ.
+- Đối thủ cứ ĐỨNG YÊN sau thất bại → ưu tiên THÊM PHẢN ĐÒN hợp nguồn lực.
+- Biến cố lớn nhưng THẾ GIỚI PHẲNG → ưu tiên PHẢN ỨNG RIÊNG có thông tin mới.
+- Truyện CHỈ CÓ CÃI VÃ/HÀNH ĐỘNG  → ưu tiên CẢNH QUAN HỆ có biến đổi.
+- Truyện GIỮA VÕNG / 'VÀ RỒI'     → chọn cơ chế nào tạo nối nhân quả thật.
+- Truyện đang ĐỦ SỨC NẶNG         → không thêm gì; biên tập nhịp.
+
+[G6] QUY TRÌNH MỞ RỘNG MỘT DÀN Ý ĐẾN 9.000–10.000 TỪ
+BƯỚC 1: Đếm số cảnh có chức năng thật. Không lấy quota từ làm điểm xuất phát.
+BƯỚC 2: Lập trạng thái mỗi nhân vật: mục tiêu, nguồn lực, hiểu biết, quan hệ.
+BƯỚC 3: Chọn điểm thiếu chiều sâu và một trong bốn hướng G1–G4.
+BƯỚC 4: Với cảnh mới, viết phiếu thiết kế:
+  - Vấn đề nào khiến cần cảnh này?
+  - Cơ chế: CÁI GIÁ / PHẢN ĐÒN / PHẢN ỨNG RIÊNG / CẢNH QUAN HỆ?
+  - Điều kiện đã gieo trước đó?
+  - Ai muốn gì, và gặp trở ngại nào?
+  - Điều gì thay đổi có thể xác minh sau cảnh?
+  - Hậu quả này được dùng lại ở cảnh nào tiếp theo?
+  - Nếu bỏ cảnh, truyện mất gì?
+BƯỚC 5: Thêm cảnh vào đúng vị trí nhân quả. Sửa những cảnh trước/sau chịu tác động.
+BƯỚC 6: Đọc lại như người chưa biết kết thúc: có đủ thông tin, không lặp,
+không diễn giải thừa, không hứa hẹn rỗng?
+BƯỚC 7: Đếm từ phần truyện thật, kiểm tra chất lượng nghe bằng TTS khi có thể.
+Nếu vẫn thiếu độ dài, lặp lại đánh giá dàn ý, KHÔNG thêm mô tả hay hồi tưởng
+vô chức năng. Nếu chất liệu không thể đạt yêu cầu mà không phá khóa MODIFY,
+báo BLOCKED/UNVERIFIED đúng lý do, tuyệt đối không giả vờ hoàn thành.
+
+[G7] VÍ DỤ MỞ RỘNG TỪ MỘT TÌNH HUỐNG (MINH HỌA TỰ TẠO)
+Tình huống gốc: Mẹ chồng đòi để em chồng tiếp quản công ty. Người vợ phản đối
+và đưa giấy tờ quyền sở hữu. Xung đột xong trong một cuộc họp.
+Không thêm một loạt cuộc mắng chửi nữa. Chọn các cảnh thực sự khác chức năng:
+  CẢNH A, CÁI GIÁ: Muốn dùng bằng chứng cô phải công khai giao dịch cũ liên
+    quan người cha; điều này làm một đồng minh ngần ngại hỗ trợ.
+  CẢNH B, PHẢN ĐÒN: Em chồng không còn cách đòi quyền sở hữu, nhưng giữ
+    hợp đồng phân phối đã tồn tại từ trước; việc rút hệ thống phân phối đe dọa
+    thu nhập nhân viên. Đây là hậu quả của thắng lợi A, không là cuộc tranh
+    giành quyền sở hữu được 'reset'.
+  CẢNH C, PHẢN ỨNG RIÊNG: Kế toán trưởng phát hiện rủi ro dòng tiền;
+    chồng biết chuyện một nhà cung cấp bị kéo đi nhưng không lên tiếng.
+    Mỗi người mang đến thông tin hoặc lựa chọn mới.
+  CẢNH D, CẢNH QUAN HỆ: Trong lúc xử lý giao hàng, hai vợ chồng nói chuyện
+    về sự im lặng của người chồng. Anh đưa thông tin cần thiết nhưng phải
+    chấp nhận cô không còn tin anh như trước. Quan hệ thay đổi.
+  CAO TRÀO MỚI: Nhân vật chính giữ công ty và công khai phương án cứu đơn
+    hàng trước người lao động; cô đạt quyền làm chủ thật sự, phải chịu trách
+    nhiệm về những gì mình lựa chọn. Hậu quả của tất cả cảnh trước hội tụ.
+Chỉ dùng các cảnh này nếu toàn bộ điều kiện đã được thiết lập hợp lý. Đối
+với MODIFY, không được tự thêm chúng khi nhóm thay đổi tương ứng bị khóa.
+
+
+==============================================================================
+PHỤ LỤC H. PHÉP KIỂM THỬ RIÊNG CHO 13 LỖI + 4 HƯỚNG MỞ RỘNG
+==============================================================================
+
+H1. KIỂM DÀN Ý TRƯỚC KHI VIẾT (BẮT BUỘC VỚI NEW, HOẶC MODIFY ĐƯỢC PHÉP)
+[ ] Hook cho người nghe biết xung đột/điều đáng quan tâm mà không giải luôn.
+[ ] Giữa truyện có ít nhất một biến đổi lớn về hiểu biết, mục tiêu, phương án,
+    liên minh hoặc hệ quả; không chỉ các vòng cãi nhau.
+[ ] Liệt kê mọi cảnh và một chức năng thật; không lập cảnh chỉ để đủ từ.
+[ ] Mỗi lần bất công lặp được kiểm tra: nguy cơ khác gì, nhân vật tiến thêm gì?
+[ ] Có mô tả lời hứa cảm xúc và hành động/hệ quả thanh toán lời hứa ấy.
+[ ] Có thể giải thích nhân quả các nút chính bằng 'nhưng/vì thế'.
+[ ] Bảng nguồn lực phản diện không bị reset sau mỗi vòng.
+[ ] Nhân vật chính chủ động ở phạm vi khả thi; không đợi đến cuối mới bắt đầu.
+[ ] Mọi khoảng trì hoãn có tiến triển, chi phí hoặc được lược kể.
+[ ] Có một đoạn kết chính có hậu quả đủ, không kết đi kết lại vô thức.
+[ ] Nếu cần thêm dung lượng, xác định đúng G1/G2/G3/G4 cho từng cảnh mới.
+
+H2. KIỂM BẢN THẢO SAU KHI VIẾT
+[ ] Nghe thử mở đầu: nhanh nhận ra tình thế và lý do tiếp tục nghe.
+[ ] Tại phần giữa: người nghe có thể chỉ ra hai thay đổi không thể đảo ngược.
+[ ] Cảnh thừa: thực hiện thử xóa/gộp, không chỉ gạch những câu trùng chữ.
+[ ] Thoại: mỗi lượt có hành động giao tiếp; không câu nào chỉ lặp sự trách móc.
+[ ] Giải thích: bỏ các câu kết luận thay cho cảm xúc đã thể hiện qua hành động.
+[ ] Đệm chữ: cắt mô tả, hồi tưởng hoặc mở cảnh chỉ để đạt số từ.
+[ ] Phần thưởng: hậu quả cụ thể xuất hiện trên người/quan hệ/quyền lợi.
+[ ] Phản diện: thất bại trước có để lại giới hạn thật lên vòng sau.
+[ ] Kiểm TTS: chủ thể và người nói được nhận ra khi không nhìn văn bản.
+[ ] Kết: số lần tưởng đã kết? Chỉ giữ các lớp hậu quả cần thiết.
+
+H3. 8 CA KIỂM THỬ NHỎ BỔ SUNG (CHƯA THỰC HIỆN CHẠY AGENT)
+K01. Mở đầu 600 từ tiểu sử trước biến cố: yêu cầu sửa mà không thêm giật gân giả.
+K02. 2.000 từ giữa truyện gồm ba cuộc cãi giống nhau: thay bằng tiến triển thật.
+K03. Cao trào thắng dễ: thêm cái giá mà không tạo tai nạn vô cớ.
+K04. Phản diện thua cổ phần nhưng quay lại như chủ sở hữu: giữ trạng thái.
+K05. Sự kiện lớn, bốn nhân vật đều 'sốc': thêm phản ứng riêng có chức năng.
+K06. Hai cao điểm nối nhau không nghỉ: thêm cảnh quan hệ đổi niềm tin.
+K07. Chuỗi 'và rồi': thiết kế lại nguyên nhân/hậu quả thay vì chỉ thêm từ nối.
+K08. Bản thảo thiếu 1.500 từ: mở rộng có chức năng, đo số từ thật,
+     tránh đệm, và tuân thủ khóa MODIFY/M00.
+
+ĐIỀU KIỆN XÁC NHẬN:
+Bản tài liệu chỉ mô tả phép kiểm; không được ghi 'đã test' nếu chưa có đầu ra
+truyện hoàn chỉnh, số từ thật, bản sửa và đánh giá độc lập khi có thể.
+
+==============================================================================
+KẾT LUẬN BỔ SUNG V1.1
+==============================================================================
+
+1) Có nhiều biến cố chưa chắc có nhiều tiến triển; giữa truyện cần các thay
+   đổi nhân quả không thể đơn giản đổi vị trí.
+2) 'Chờ cao trào' không đồng nghĩa 'chờ nhân vật hành động'; nhân vật phải
+   chủ động từ sớm nhưng chưa nhất thiết thắng toàn bộ.
+3) Chống lê thê ở cấp cấu trúc: dọn cảnh thừa, ức chế lặp, trì hoãn rỗng,
+   chuỗi 'và rồi', phản diện reset và kết nhiều lần.
+4) Mở rộng đúng là thêm chức năng mới: THÊM CÁI GIÁ, THÊM PHẢN ĐÒN,
+   THÊM PHẢN ỨNG RIÊNG, THÊM CẢNH QUAN HỆ. Không nhất thiết đủ bốn.
+5) Văn bản phải nghe được bằng tai; mỗi cách sửa phải được kiểm từ góc
+   nhìn người nghe chỉ biết thông tin đã kể, không phải góc nhìn tác giả.
+6) Bản V1.1 là tài liệu nghiên cứu/biên tập; chưa đồng nghĩa đã kiểm chứng
+   bằng 10 truyện dài thật hoặc đã cập nhật bốn file Agent chính.
+
+KẾT THÚC TÀI LIỆU
